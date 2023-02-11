@@ -8,9 +8,9 @@ const userData = {
   address: "Cherthala, India.",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "Web Dev 101",
+      link: "https://webdevtutorials101.netlify.app/",
+      imgUrl: "/webdev101.png",
     },
     {
       title: "PlaceholderTech",
@@ -64,7 +64,7 @@ const userData = {
       title: "Partner Technical Advisor",
       company: "Microsoft",
       year: "2016 - present",
-      companyLink: "https://mroads.com",
+      companyLink: "https://microsoft.com",
       desc: "As Program Manager, building teams for troublshooting SDK issue of the CRM product along with product and process improvement with Agile.",
     },
     {
