@@ -11,7 +11,6 @@ export default function Footer() {
             <p>&copy; No Rights Reserved. 😀 Feel free to star ✨ , fork , clone and reuse</p>
           </div>
           <div>
-            {/* Support me by keeping this in the footer, please. :) */}
             <div>
               Compiled by
               <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
