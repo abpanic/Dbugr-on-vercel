@@ -8,7 +8,7 @@ const userData = {
   address: "Cherthala, India.",
   projects: [
     {
-      title: "Web Dev 101",
+      title: "Web Dev 101 for SDK Engineer onboarding",
       link: "https://webdevtutorials101.netlify.app/",
       imgUrl: "/webdev101.png",
     },
@@ -50,14 +50,14 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves building products and web applications that impact millions of lives",
+      "I'm a software developer and a Data enthusiast with experience in Program Management",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      `I've been developing applications for 12 years now working through the ideation and whiteboarding stage to productization.`,
+      `I have spent enourmous amount of time troublshooting and debugging code and that I do consider debugging as a skill.`,
+      'I do not coach on coding but on debugging and planning since it is easy to write the code once you have though through and well equiped to troublshoot and debugg rather than just typing away in IDE',
     ],
-    currentProject: "Tailwind Master Kit",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProject: "Web DEV 101",
+    currentProjectUrl: "https://webdevtutorials101.netlify.app/",
   },
   experience: [
     {
@@ -107,7 +107,6 @@ const userData = {
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
     /*instagram: "https://instagram.com/maninthere",*/
-    /*twitter: "https://twitter.com/mannupaaji",*/
     linkedin: "https://linkedin.com/in/abhilash-panicker-68952b159",
     github: "https://github.com/abpanic",
     /*facebook: "https://facebook.com/",*/

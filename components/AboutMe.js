@@ -49,7 +49,7 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, with competitive pay and an exciting challenge. If you see me as a good fit,
+                I'm looking for a job currently, with an exciting challenge. If you see me as a good fit,
                 check my{" "}
                 <a
                   href={userData.resumeUrl}
@@ -58,7 +58,7 @@ export default function AboutMe() {
                 >
                   CV
                 </a>{" "}
-                and I'd love to work for you.
+                and I'd love to work with you.
               </p>
             </div>
             {/* Social Links */}
@@ -75,18 +75,6 @@ export default function AboutMe() {
                   <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     Facebook
-                  </div>
-                </a>
-              </div>
-              <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.twitter}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Twitter
                   </div>
                 </a>
               </div>
