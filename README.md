@@ -35,7 +35,3 @@ Deployment can be done in 3 easy steps.
 - Login to [Vercel](https://vercel.com) or signup for an account if you don't have one.
 - Create a `New Project` and select YOUR GitHub repository of the portfolio project.
 - Wait for Vercel to deploy your project to production.
-
-# Support
-
-<a href="https://www.buymeacoffee.com/manuarora" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
