@@ -78,14 +78,14 @@ const userData = {
       title: "Technical Associate",
       company: "IKS Health(formerly Inventurus Knowledge Solutions)",
       year: "2013- 2014",
-      companyLink: "https://algochurn.com",
+      companyLink: "https://www.ikshealth.com",
       desc: "Bringing products from ideation to productization stage",
     },
     {
       title: "Customer Care Representative",
       company: "Sitel",
       year: "2011 - 2013",
-      companyLink: "https://intel.com",
+      companyLink: "https://www.sitel.com",
       desc: "For MS SQL,develop mitigation scripts, perform database support activities, performance tuning and general troubleshooting with tools:  NetMon, ProcMon, Fiddler, SQL Profiler",
     },
     {
