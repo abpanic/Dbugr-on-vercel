@@ -65,7 +65,7 @@ const userData = {
       company: "Microsoft",
       year: "2016 - present",
       companyLink: "https://microsoft.com",
-      desc: "As Program Manager, building teams for troublshooting SDK issue of the CRM product along with product and process improvement with Agile.",
+      desc: "Built teams for troublshooting Software Development Kit(SDK) at Partner Sonata consisting of 35 Engineers along with product and process improvement with Agile.",
     },
     {
       title: "Consultant",
