@@ -1,4 +1,4 @@
-import BadgesCert from "@components/BadgesCerts";
+import BadgesCert from "@components/BadgesCert";
 import React from "react";
 import ContainerBlock from "../components/ContainerBlock";
 
