@@ -19,7 +19,7 @@ const userData = {
     },
     {
       title: "Portfolio",
-      link: "https://manuarora.in",
+      link: "https://dbugr.netlify.app",
       imgUrl: "/portfolio.png",
     },
     {
@@ -104,7 +104,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    "https://drive.google.com/file/d/1weerrr/view?usp=sharing",
   socialLinks: {
     /*instagram: "https://instagram.com/maninthere",*/
     linkedin: "https://linkedin.com/in/abhilash-panicker-68952b159",
