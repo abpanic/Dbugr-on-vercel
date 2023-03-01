@@ -12,6 +12,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
     description: `I've been troublshooting, developeing and now managing programs recently over 12 years. Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website",
+    date: "01-01-2023",
     ...customMeta,
   };
   return (
