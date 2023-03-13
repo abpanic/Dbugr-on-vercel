@@ -5,7 +5,7 @@ import Experience from "../components/Blog";
 export default function blog() {
   return (
     <ContainerBlock title="Blog - Abhilash Panicker">
-      <Experience />
+      
     </ContainerBlock>
   );
 }
