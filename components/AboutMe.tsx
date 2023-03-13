@@ -104,7 +104,7 @@ export default function AboutMe() {
             ))}
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Programming Languages </h3>
-            <div className="grid grid-flow-col auto-cols-max mt-8">
+            <div className="grid grid-flow-col auto-cols-max gap-4">
               <div className="flex items-center"><a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp"
                 className="h-10 w-10 mx-2 my-2" />C# </a></div>
