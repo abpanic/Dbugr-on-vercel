@@ -104,10 +104,10 @@ export default function AboutMe() {
             ))}
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Programming Languages </h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
-              <div className="flex items-center"><a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
+              <div className="flex items-center gap-2"><a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img 
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp"
-                className="h-10 w-10 mx-2 my-2" />C# </a></div>
+                className="h-10 w-10 mx-2 my-2 rounded-full" /><p className="text-base font-semibold leading-4 tracking-tight">C# </p></a></div>
 
               <div className="flex items-center"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
@@ -123,7 +123,7 @@ export default function AboutMe() {
             </div>
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50"> Frontend Development </h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
               <div className="flex items-center"><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                 alt="html5" className="h-10 w-10 mx-2 my-2" />HTML5 </a></div>
@@ -134,7 +134,7 @@ export default function AboutMe() {
 
               <div className="flex items-center"><a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img
                 src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40"
-                height="40" />Tailwind CSS </a></div>
+                height="40" />Tailwind </a></div>
 
               <div className="flex items-center"><a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
@@ -155,7 +155,7 @@ export default function AboutMe() {
                 alt="react" className="h-10 w-10 mx-2 my-2" /> React</a></div>
             </div>
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Backend Development</h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
 
               <div><a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
@@ -175,7 +175,7 @@ export default function AboutMe() {
 
 
             </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Mobile App Development</h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
 
               <div><a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg"
@@ -186,7 +186,7 @@ export default function AboutMe() {
 
 
             </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">AI/ML</h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
               <div><a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img
                 src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40"
                 height="40" /> TensorFlow</a></div>
@@ -213,7 +213,7 @@ export default function AboutMe() {
 
 
             </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Data Visualization</h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
 
               <div><a href="https://d3js.org/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js"
@@ -221,7 +221,7 @@ export default function AboutMe() {
 
 
             </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Devops</h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
 
               <div><a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img
                 src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40"
@@ -236,7 +236,7 @@ export default function AboutMe() {
                 height="40" />Azure DevOps</a></div>
 
             </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Framework</h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
 
               <div><a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
                 <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" className="h-10 w-10 mx-2 my-2" />Django </a></div>
@@ -250,7 +250,7 @@ export default function AboutMe() {
 
 
             </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Testing</h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
               <div><a href="https://jestjs.io" target="_blank" rel="noreferrer">
                 <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" className="h-10 w-10 mx-2 my-2" />
                 JestJS
@@ -258,7 +258,7 @@ export default function AboutMe() {
 
 
             </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Database</h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
               <div><a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
                 alt="postgresql" className="h-10 w-10 mx-2 my-2" />PostgreSQL </a></div>
@@ -277,7 +277,7 @@ export default function AboutMe() {
 
 
             </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Static Site Generation</h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
 
               <div><a href="https://jekyllrb.com/" target="_blank" rel="noreferrer"> <img
                 src="https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-icon.svg" alt="jekyll" className="h-10 w-10 mx-2 my-2" />Jekyll
@@ -289,7 +289,7 @@ export default function AboutMe() {
 
 
             </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Game Engines</h3>
-            <div className="grid grid-flow-col auto-cols-max gap-4 justify-items-stretch">
+            <div className="grid grid-flow-col auto-cols-max gap-4 ">
               <div><a href="https://unity.com/" target="_blank" rel="noreferrer"> <img
                 src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" className="h-10 w-10 mx-2 my-2" />Unity </a></div>
             </div>
