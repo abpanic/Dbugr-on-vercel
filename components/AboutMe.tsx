@@ -124,24 +124,24 @@ export default function AboutMe() {
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50"> Frontend Development </h3>
             <div className="flex flex-row flex-wrap mt-8">
-              <div><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
+              <div className="flex items-center"><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                 alt="html5" className="h-10 w-10 mx-2 my-2" />HTML5 </a></div>
 
-              <div><a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img
+              <div className="flex items-center"><a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"
                 className="h-10 w-10 mx-2 my-2" />CSS3 </a></div>
 
-              <div><a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img
+              <div className="flex items-center"><a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img
                 src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40"
                 height="40" />Tailwind CSS </a></div>
 
-              <div><a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img
+              <div className="flex items-center"><a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
                 alt="bootstrap" className="h-10 w-10 mx-2 my-2" /> Bootstrap</a></div>
 
 
-              <div><a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img
+              <div className="flex items-center"><a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg"
                 alt="webpack" className="h-10 w-10 mx-2 my-2" />Webpack </a></div>
 
