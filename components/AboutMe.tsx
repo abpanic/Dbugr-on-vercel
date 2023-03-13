@@ -104,7 +104,7 @@ export default function AboutMe() {
             ))}
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Programming Languages </h3>
-            <div className="flex flex-row flex-wrap mt-8">
+            <div className="flex flex-row flex-wrap mt-8 justify-center">
               <div><a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp"
                 className="h-10 w-10 mx-2 my-2" />C# </a></div>
@@ -123,7 +123,7 @@ export default function AboutMe() {
             </div>
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50"> Frontend Development </h3>
-            <div className="flex flex-row flex-wrap mt-8">
+            <div className="flex flex-row flex-wrap mt-8 justify-center">
               <div><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                 alt="html5" className="h-10 w-10 mx-2 my-2" />HTML5 </a></div>
