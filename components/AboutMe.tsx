@@ -105,21 +105,21 @@ export default function AboutMe() {
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Programming Languages </h3>
             <div className="grid grid-flow-col auto-cols-max gap-4 ">
-              <div className="flex items-center gap-2"><a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img 
+              <div className="flex items-center gap-2 overflow-hidden"><a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img 
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp"
-                className="h-10 w-10 mx-2 my-2 rounded-full" /><p className="text-base font-semibold leading-4 tracking-tight">C# </p></a></div>
+                className="h-10 w-10 mx-2 my-2 object-contain" /><p className="text-sm font-semibold leading-4 tracking-tight">C# </p></a></div>
 
-              <div className="flex items-center"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img
+              <div className="flex items-center gap-2 overflow-hidden"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                alt="javascript" className="h-10 w-10 mx-2 my-2" /> JavaScript </a></div>
+                alt="javascript" className="h-10 w-10 mx-2 my-2 object-contain" /> JavaScript </a></div>
 
-              <div className="flex items-center"><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img
+              <div className="flex items-center gap-2 overflow-hidden"><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
-                alt="typescript" className="h-10 w-10 mx-2 my-2" />TypeScript </a></div>
+                alt="typescript" className="h-10 w-10 mx-2 my-2 object-contain" />TypeScript </a></div>
 
-              <div className="flex items-center"><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img
+              <div className="flex items-center gap-2 overflow-hidden"><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"
-                className="h-10 w-10 mx-2 my-2" />Python </a></div>
+                className="h-10 w-10 mx-2 my-2 object-contain" />Python </a></div>
             </div>
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50"> Frontend Development </h3>
