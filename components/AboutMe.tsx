@@ -107,30 +107,30 @@ export default function AboutMe() {
             <div className="flex flex-row flex-wrap mt-8">
               <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp"
-                className="h-20 w-20 mx-4 my-4" />C# </a>
+                className="h-10 w-10 mx-2 my-2" />C# </a>
 
               <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                alt="javascript" className="h-20 w-20 mx-4 my-4" /> JavaScript </a>
+                alt="javascript" className="h-10 w-10 mx-2 my-2" /> JavaScript </a>
 
               <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
-                alt="typescript" className="h-20 w-20 mx-4 my-4" />TypeScript </a>
+                alt="typescript" className="h-10 w-10 mx-2 my-2" />TypeScript </a>
 
               <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"
-                className="h-20 w-20 mx-4 my-4" />Python </a>
+                className="h-10 w-10 mx-2 my-2" />Python </a>
             </div>
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50"> Frontend Development </h3>
             <div className="flex flex-row flex-wrap mt-8">
               <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                alt="html5" className="h-20 w-20 mx-4 my-4" />HTML5 </a>
+                alt="html5" className="h-10 w-10 mx-2 my-2" />HTML5 </a>
 
               <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"
-                className="h-20 w-20 mx-4 my-4" />CSS3 </a>
+                className="h-10 w-10 mx-2 my-2" />CSS3 </a>
 
               <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img
                 src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40"
@@ -138,31 +138,31 @@ export default function AboutMe() {
 
               <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-                alt="bootstrap" className="h-20 w-20 mx-4 my-4" /> Bootstrap</a>
+                alt="bootstrap" className="h-10 w-10 mx-2 my-2" /> Bootstrap</a>
 
 
               <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg"
-                alt="webpack" className="h-20 w-20 mx-4 my-4" />Webpack </a>
+                alt="webpack" className="h-10 w-10 mx-2 my-2" />Webpack </a>
 
 
               <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux"
-                className="h-20 w-20 mx-4 my-4" /> Redux</a>
+                className="h-10 w-10 mx-2 my-2" /> Redux</a>
 
               <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-                alt="react" className="h-20 w-20 mx-4 my-4" /> React</a>
+                alt="react" className="h-10 w-10 mx-2 my-2" /> React</a>
             </div>
           <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Backend Development</h3>
           <div className="flex flex-row flex-wrap mt-8">
 
             <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-              alt="nodejs" className="h-20 w-20 mx-4 my-4" />NodeJS </a>
+              alt="nodejs" className="h-10 w-10 mx-2 my-2" />NodeJS </a>
 
             <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img
-              src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" className="h-20 w-20 mx-4 my-4" />GraphQL
+              src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" className="h-10 w-10 mx-2 my-2" />GraphQL
             </a>
 
             <a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer"> <img
@@ -170,7 +170,7 @@ export default function AboutMe() {
               height="40" />Hadoop </a>
 
             <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img
-              src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" className="h-20 w-20 mx-4 my-4" />
+              src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" className="h-10 w-10 mx-2 my-2" />
               Kafka</a>
 
 
@@ -179,10 +179,10 @@ export default function AboutMe() {
 
             <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg"
-              alt="android" className="h-20 w-20 mx-4 my-4" /> Android</a>
+              alt="android" className="h-10 w-10 mx-2 my-2" /> Android</a>
 
             <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img
-              src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" className="h-20 w-20 mx-4 my-4" />ReactNative </a>
+              src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" className="h-10 w-10 mx-2 my-2" />ReactNative </a>
 
 
           </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">AI/ML</h3>
@@ -193,23 +193,23 @@ export default function AboutMe() {
 
             <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img
               src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn"
-              className="h-20 w-20 mx-4 my-4" /> Scikit-Learn</a>
+              className="h-10 w-10 mx-2 my-2" /> Scikit-Learn</a>
 
             <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img
-              src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" className="h-20 w-20 mx-4 my-4" />Seaborn
+              src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" className="h-10 w-10 mx-2 my-2" />Seaborn
             </a>
 
             <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
-              <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" className="h-20 w-20 mx-4 my-4" />Pytorch
+              <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" className="h-10 w-10 mx-2 my-2" />Pytorch
             </a>
 
             <a href="https://opencv.org/" target="_blank" rel="noreferrer">
-              <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" className="h-20 w-20 mx-4 my-4" />
+              <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" className="h-10 w-10 mx-2 my-2" />
               OpenCV</a>
 
             <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img
               src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg"
-              alt="pandas" className="h-20 w-20 mx-4 my-4" /> Pandas</a>
+              alt="pandas" className="h-10 w-10 mx-2 my-2" /> Pandas</a>
 
 
           </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Data Visualization</h3>
@@ -217,7 +217,7 @@ export default function AboutMe() {
 
             <a href="https://d3js.org/" target="_blank" rel="noreferrer"> <img
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js"
-              className="h-20 w-20 mx-4 my-4" />D3JS </a>
+              className="h-10 w-10 mx-2 my-2" />D3JS </a>
 
 
           </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Devops</h3>
@@ -229,7 +229,7 @@ export default function AboutMe() {
 
             <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
-              alt="docker" className="h-20 w-20 mx-4 my-4" /> Docker</a>
+              alt="docker" className="h-10 w-10 mx-2 my-2" /> Docker</a>
 
             <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img
               src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40"
@@ -239,20 +239,20 @@ export default function AboutMe() {
           <div className="flex flex-row flex-wrap mt-8">
 
             <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
-              <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" className="h-20 w-20 mx-4 my-4" />Django </a>
+              <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" className="h-10 w-10 mx-2 my-2" />Django </a>
 
             <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer">
-              <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" className="h-20 w-20 mx-4 my-4" />Flask</a>
+              <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" className="h-10 w-10 mx-2 my-2" />Flask</a>
 
             <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer">
               <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg"
-                alt="dotnet" className="h-20 w-20 mx-4 my-4" /> .NET</a>
+                alt="dotnet" className="h-10 w-10 mx-2 my-2" /> .NET</a>
 
 
           </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Testing</h3>
           <div className="flex flex-row flex-wrap mt-8">
             <a href="https://jestjs.io" target="_blank" rel="noreferrer">
-              <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" className="h-20 w-20 mx-4 my-4" />
+              <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" className="h-10 w-10 mx-2 my-2" />
               JestJS
             </a>
 
@@ -261,18 +261,18 @@ export default function AboutMe() {
           <div className="flex flex-row flex-wrap mt-8">
             <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
-              alt="postgresql" className="h-20 w-20 mx-4 my-4" />PostgreSQL </a>
+              alt="postgresql" className="h-10 w-10 mx-2 my-2" />PostgreSQL </a>
 
             <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-              alt="mongodb" className="h-20 w-20 mx-4 my-4" />MongoDB </a>
+              alt="mongodb" className="h-10 w-10 mx-2 my-2" />MongoDB </a>
 
             <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img
-              src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" className="h-20 w-20 mx-4 my-4" />MS
+              src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" className="h-10 w-10 mx-2 my-2" />MS
               SQL </a>
 
             <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img
-              src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" className="h-20 w-20 mx-4 my-4" />
+              src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" className="h-10 w-10 mx-2 my-2" />
               Apache Hive</a>
 
 
@@ -280,18 +280,18 @@ export default function AboutMe() {
           <div className="flex flex-row flex-wrap mt-8">
 
             <a href="https://jekyllrb.com/" target="_blank" rel="noreferrer"> <img
-              src="https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-icon.svg" alt="jekyll" className="h-20 w-20 mx-4 my-4" />Jekyll
+              src="https://www.vectorlogo.zone/logos/jekyllrb/jekyllrb-icon.svg" alt="jekyll" className="h-10 w-10 mx-2 my-2" />Jekyll
             </a>
 
             <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
-              <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" className="h-20 w-20 mx-4 my-4" /> NextJS</a>
+              <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" className="h-10 w-10 mx-2 my-2" /> NextJS</a>
 
 
 
           </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Game Engines</h3>
           <div className="flex flex-row flex-wrap mt-8">
             <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img
-              src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" className="h-20 w-20 mx-4 my-4" />Unity </a>
+              src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" className="h-10 w-10 mx-2 my-2" />Unity </a>
           </div>
           </div>
         </div>
