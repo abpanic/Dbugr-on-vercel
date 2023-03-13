@@ -104,26 +104,26 @@ export default function AboutMe() {
             ))}
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Programming Languages </h3>
-            <div className="flex flex-row flex-wrap mt-8 justify-center">
-              <div><a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img
+            <div className="flex flex-row flex-wrap mt-8">
+              <div className="flex items-center"><a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp"
                 className="h-10 w-10 mx-2 my-2" />C# </a></div>
 
-              <div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img
+              <div className="flex items-center"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                 alt="javascript" className="h-10 w-10 mx-2 my-2" /> JavaScript </a></div>
 
-              <div><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img
+              <div className="flex items-center"><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
                 alt="typescript" className="h-10 w-10 mx-2 my-2" />TypeScript </a></div>
 
-              <div><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img
+              <div className="flex items-center"><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"
                 className="h-10 w-10 mx-2 my-2" />Python </a></div>
             </div>
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50"> Frontend Development </h3>
-            <div className="flex flex-row flex-wrap mt-8 justify-center">
+            <div className="flex flex-row flex-wrap mt-8">
               <div><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                 alt="html5" className="h-10 w-10 mx-2 my-2" />HTML5 </a></div>
