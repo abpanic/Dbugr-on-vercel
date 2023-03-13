@@ -1,5 +1,3 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import ContainerBlock from "../components/ContainerBlock";
 import FavouriteProjects from "../components/FavouriteProjects";
 import LatestCode from "../components/LatestCode";
@@ -11,8 +9,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Abhilash Panicker - Data Enthusiast, Developer, Debuger"
-      description="This is a repository of blogs, tutorials and colection of some of my work."
-    >
+      description="This is a repository of blogs, tutorials and colection of some of my work.">
       <Hero />
       <FavouriteProjects />
       <LatestCode repositories={repositories} />

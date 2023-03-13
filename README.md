@@ -13,6 +13,7 @@ The website is built in my favourite Tech Stack and deployed on [![Vercel](https
 - [React Rough Notation](https://roughnotation.com) for Hero section highlighting.
 - [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com) for deployments and CI/CD.
 - [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/) for the code
+- Contentlayer(https://www.contentlayer.dev/) for blogging
 
 # Usage
 

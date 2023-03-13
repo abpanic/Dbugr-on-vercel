@@ -9,7 +9,8 @@
       "@lib/*": ["lib/*"],
       "@styles/*": ["styles/*"],
       "@hooks/*": ["hooks/*"],
-      "@constants/*": ["constants/*"]
+      "@constants/*": ["constants/*"],
+      "contentlayer/generated": ["./.contentlayer/generated"]
     }
   }
 }

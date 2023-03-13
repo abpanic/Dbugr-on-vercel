@@ -50,7 +50,7 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer and a Data enthusiast with experience in Program Management",
+      "I'm Data enthusiast with experience in Program Management, Data engineering and Software Development",
     description: [
       `I've been developing applications for 12 years now working through the ideation and whiteboarding stage to productization.`,
       `I have spent enourmous amount of time troublshooting and debugging code and that I do consider debugging as a skill.`,

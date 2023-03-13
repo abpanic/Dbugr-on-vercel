@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^16.0.3",
+    "gray-matter": "^4.0.3",
     "next": "latest",
     "next-themes": "latest",
     "react": "^18.2.0",
