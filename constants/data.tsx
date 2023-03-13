@@ -28,8 +28,8 @@ const userData = {
       imgUrl: "/covidrescue.png",
     },
     {
-      title: "Algochurn",
-      link: "https://algochurn.com",
+      title: "Learn Docsify",
+      link: "https://learn-docsify.netlify.app/#/",
       imgUrl: "/algochurn.png",
     },
     {
@@ -52,9 +52,9 @@ const userData = {
     title:
       "I'm Data enthusiast with experience in Program Management, Data engineering and Software Development",
     description: [
-      `I've been developing applications for 12 years now working through the ideation and whiteboarding stage to productization.`,
+      `I've worked in several different roles with an overall experience of 15 years now, working through the ideation and whiteboarding stage to productization.`,
       `I have spent enourmous amount of time troublshooting and debugging code and that I do consider debugging as a skill.`,
-      'I do not coach on coding but on debugging and planning since it is easy to write the code once you have though through and well equiped to troublshoot and debugg rather than just typing away in IDE',
+      'I do not just coach on coding but on debugging and whiteboarding as well since it is easy to write the code once you have thought through and well equiped to troublshoot and debugg rather than just typing away in IDE',
     ],
     currentProject: "Web DEV 101",
     currentProjectUrl: "https://webdevtutorials101.netlify.app/",
