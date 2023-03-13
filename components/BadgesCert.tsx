@@ -28,30 +28,30 @@ export default function BadgesCert() {
 
             {/* Social Links */}
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
-              Social Links
+              Links to my Certifications:
             </h1>
             <div className="mt-4 ml-4">
               <div className="flex flex-row justify-start items-center">
                 <div><a
-                  href={userData.socialLinks.github}
+                  href="https://www.credly.com/users/abhilash-panicker/badges"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
                   <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    GitHub
+                    Credly
                   </div>
                 </a></div>
               </div>
               <div className="flex flex-row justify-start items-center">
                 <div><a
-                  href={userData.socialLinks.linkedin}
+                  href="https://eportfolio.mygreatlearning.com/abhilash-panicker"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
                   <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    LinkedIn
+                    GreatLearning
                   </div>
                 </a></div>
               </div>
@@ -70,9 +70,7 @@ export default function BadgesCert() {
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges </h3>
             <div className="grid grid-flow-col auto-cols-max gap-4 ">
-              <div className="flex items-center gap-2 overflow-hidden"><a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp"
-                className="h-10 w-10 mx-2 my-2 " />C# </a></div>
+              <div className="flex items-center gap-2 overflow-hidden">Updating the Credly section here</div>
                 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="90a3d6b2-1dad-4027-8979-1d6f9f222588" data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                 </div>
