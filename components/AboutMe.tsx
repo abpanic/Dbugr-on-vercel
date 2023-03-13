@@ -154,7 +154,7 @@ export default function AboutMe() {
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
                 alt="react" className="h-20 w-20 mx-4 my-4" /> React</a>
             </div>
-          </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Backend Development</h3>
+          <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Backend Development</h3>
           <div className="flex flex-row flex-wrap mt-8">
 
             <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img
@@ -292,6 +292,7 @@ export default function AboutMe() {
           <div className="flex flex-row flex-wrap mt-8">
             <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img
               src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" className="h-20 w-20 mx-4 my-4" />Unity </a>
+          </div>
           </div>
         </div>
       </div>
