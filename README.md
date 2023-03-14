@@ -7,7 +7,6 @@ badgeinfo.tsx-> Provide information on any certifications and Badges like credly
 
 # Tech Stack
 
-The website is built in my favourite Tech Stack and deployed on [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
 - [Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) for building React Components.
 - [![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com) for styling.
@@ -29,13 +28,26 @@ Projects:
 - Link the skill section to Projects. Anyone clicking on specific link will be taken to project using the skill.
 - Update Project page to have rounded section and emboss of skill used.
 - Ability of filtering projects for the associated skills.
+- Add template for DB migration
 
 Blogs
 - complete blogs page set-up
 - Write more content
+- authentication v/s Authorization 
+- Why MQTT ?
+
 
 Certificates:
 - Add Coursera certificates
 - fix the links from credly badges
 - Upload IIT Roorkee certificate
+
+Add Courses page:
+- Publish all Learning content for free Online
+- Docsify
+- Javascript mastery
+- TestDriven Design
+- Using Fiddler
+- Using Postman
+
 

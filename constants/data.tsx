@@ -120,6 +120,33 @@ const userData = {
     },
 
   ],
+
+  currentlearning: [
+    {
+      title: "Full Stack from University of Helsinki",
+      link: "https://fullstackopen.com/en/part0/fundamentals_of_web_apps/#full-stack-web-development"
+    },
+    {
+      title: "Data Analysis with Python",
+      link: "https://courses.mooc.fi/org/uh-cs/courses/dap-22"
+    },
+    {
+      title: "Meta Front End Certification",
+      link: "https://www.coursera.org/learn/introduction-to-front-end-development/"
+    },
+    {
+      title: "Data-engineer-with-python",
+      link: "https://app.datacamp.com/learn/career-tracks/data-engineer-with-python"
+    },
+    {
+      title: "Machine Learning",
+      link: "https://www.coursera.org/learn/introduction-to-machine-learning-supervised-learning/"
+    },
+    {
+      title:"Project Management",
+      link:"https://www.coursera.org/learn/project-management-foundations-initiation/home/week/1"
+    },
+  ],
   resumeUrl:
     "https://drive.google.com/file/d/1weerrr/view?usp=sharing",
   socialLinks: {
