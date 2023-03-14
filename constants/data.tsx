@@ -53,7 +53,7 @@ const userData = {
       "I'm Data enthusiast with experience in Program Management, Data engineering and Software Development",
     description: [
       `I've worked in several different roles with an overall experience of 15 years now, working through the ideation and whiteboarding stage to productization.`,
-      `I have spent enourmous amount of time troublshooting and debugging code and that I do consider debugging as a skill.`,
+      `I have spent enourmous amount of time troublshooting and debugging code  and coaching engineers to do it,  making me sincerely believe debugging is a skill.`,
       'I do not just coach on coding but on debugging and whiteboarding as well since it is easy to write the code once you have thought through and well equiped to troublshoot and debugg rather than just typing away in IDE',
     ],
     currentProject: "Web DEV 101",
@@ -68,11 +68,11 @@ const userData = {
       desc: "Built teams for troublshooting Software Development Kit(SDK) at Partner Sonata consisting of 35 Engineers along with product and process improvement with Agile.",
     },
     {
-      title: "Consultant",
+      title: "Technical Consultant",
       company: "Wipro",
       year: "2014-2016",
       companyLink: "https://wipro.com",
-      desc: "Data Engineer for SQL server.",
+      desc: "Data Engineer.",
     },
     {
       title: "Technical Associate",
@@ -89,6 +89,15 @@ const userData = {
       desc: "For MS SQL,develop mitigation scripts, perform database support activities, performance tuning and general troubleshooting with tools:  NetMon, ProcMon, Fiddler, SQL Profiler",
     },
     {
+      title: "Proprietor",
+      company: "FinFrontier",
+      year: "2008",
+      companyLink: "https://www.finafrontier.in/",
+      desc: "CRM and ERP solution to Small and Medium businesses in India. The business was wound up after nearly 4 years to trying to break-even. This was before the rise of cheap Internet. Selling software through CD/DVD didnot work due to privacy",
+    },
+  ],
+  education: [
+    {
       title: "M.S. - Data Science",
       company: "University of Colorado Boulder",
       year: "2021",
@@ -103,17 +112,18 @@ const userData = {
       desc: "Completed online along with my full time job. Thanks to new found financial freedom from personal financial liabilities.",
     },
     {
-      title: "Proprietor",
-      company: "FinFrontier",
-      year: "2008",
-      companyLink: "https://www.finafrontier.in/",
-      desc: "CRM and ERP solution to Small and Medium businesses in India. The business was wound up after nearly 4 years to trying to break-even. This was before the rise of cheap Internet. Selling software through CD/DVD didnot work due to privacy",
+      title: "Bachelor of Technology - Electrical",
+      company: "Rajasthan Technical University",
+      year: "2006",
+      companyLink: "https://www.rtu.ac.in/index/",
+      desc: "Quit in 2008 to start my own business of CRM and ERP software across Mumbai, Sangli, Jalna, Ahmedabad.",
     },
+
   ],
   resumeUrl:
     "https://drive.google.com/file/d/1weerrr/view?usp=sharing",
   socialLinks: {
-    /*instagram: "https://instagram.com/maninthere",*/
+    /*instagram: "https://instagram.com/",*/
     linkedin: "https://linkedin.com/in/abhilash-panicker-68952b159",
     github: "https://github.com/abpanic",
     /*facebook: "https://facebook.com/",*/
