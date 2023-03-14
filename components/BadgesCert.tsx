@@ -49,6 +49,7 @@ export default function BadgesCert() {
             <BadgeCard
               name={badg.name}
               link={"https://credly.com/badges/${badg.id}"}
+              id={badg.id}
               image={badg.image}
               number={`${idx + 1}`}
             />
@@ -76,9 +77,10 @@ export default function BadgesCert() {
 
 
 
-const BadgeCard = ({ name, link, image, number }) => {
+const BadgeCard = ({ name, link, image, number, id }) => {
   return (
-    <a href={link} className="w-full block shadow-2xl">
+    <a href="https://credly.com/badges/" className="w-full block shadow-2xl">
+      
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <img
