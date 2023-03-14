@@ -47,7 +47,7 @@ export default function BadgesCert() {
         <div className="grid grid-flow-col auto-cols-max gap-4 ">
 
             <div className="bg-[#F1F1F1] dark:bg-gray-900">
-              <div className="max-w-1xl mx-auto grid grid-cols-3 md:grid-cols-2 gap-2 ">
+              <div className="max-w-sm mx-auto grid grid-cols-3 md:grid-cols-2 gap-2 py-20 pb-40">
                 {certData.accepted_badges.map((badg, idx) => (
                   <BadgeCard
                     name={badg.name}
