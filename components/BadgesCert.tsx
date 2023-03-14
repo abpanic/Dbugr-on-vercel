@@ -86,7 +86,7 @@ const BadgeCard = ({ name, link, image, number, id }) => {
             className="transform hover:scale-80 transition duration-2000 ease-out object-contain h-20 w-30"
           />
         </div>
-        <h1 className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
+        <h1 className="px-4 py-1 text-sm text-red-600 font-semibold rounded-full border border-red-200 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">
           {name}
         </h1>
 
