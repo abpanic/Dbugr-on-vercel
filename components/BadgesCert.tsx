@@ -6,9 +6,9 @@ export default function BadgesCert() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          Certifications and Badges
-        </h1>
+        <h3 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+          Certifications & Badges
+        </h3>
       </div>
       <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
@@ -46,13 +46,9 @@ export default function BadgesCert() {
             </div>
           </div>
         </div>
-      </div>
+      
       <div><h3 className="bg-green-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges </h3>
         <div className="grid grid-flow-col auto-cols-max gap-4 ">
-          <div className="flex items-center gap-2 overflow-hidden">Updating the Credly section here</div>
-          <div className="grid gap-4 grid-flow-row ">
-
-
 
             <div className="bg-[#F1F1F1] dark:bg-gray-900">
               <div className="max-w-6xl mx-auto grid grid-cols-3 md:grid-cols-2 gap-4 py-20 pb-40">
@@ -67,8 +63,9 @@ export default function BadgesCert() {
                 ))}
               </div>
             </div>
-          </div>
+          
         </div>
+      </div>
       </div>
 
     </section>
@@ -89,7 +86,7 @@ const BadgeCard = ({ name, link, image, number, id }) => {
             className="transform hover:scale-80 transition duration-2000 ease-out object-contain h-30 w-48"
           />
         </div>
-        <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-green-500 rounded-md px-2">
+        <h1 className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
           {name}
         </h1>
 
