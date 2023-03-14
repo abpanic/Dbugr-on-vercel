@@ -54,34 +54,35 @@ export default function BadgesCert() {
               </div>
             </div>
           </div>
-          </div>
-          {/* Text area */}
-         
+        
+        {/* Text area */}
 
-            
-            <div><h3 className="bg-green-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges </h3>
+
+
+        <div><h3 className="bg-green-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges </h3>
+        </div>
+        <div className="grid grid-flow-col auto-cols-max gap-4 ">
+          <div className="flex items-center gap-2 overflow-hidden">Updating the Credly section here</div>
+          <div className="grid gap-4 grid-flow-row ">
+
+
+            <div className="grid gap-4 grid-flow-row h-20 w-20">IIT Roorkee Certification link: TO DO</div>
+            <div className="grid gap-4 grid-flow-row h-20 w-20">DataCamp link: To DO</div>   </div>
+          <div className="bg-[#F1F1F1] dark:bg-gray-900">
+            <div className="max-w-6xl mx-auto grid grid-cols-3 md:grid-cols-2 gap-4 py-20 pb-40 object-contain">
+              {certData.accepted_badges.map((badg, idx) => (
+                <BadgeCard
+                  name={badg.name}
+                  link={"https://credly.com/badges/${badg.id}"}
+                  id={badg.id}
+                  image={badg.image}
+                  number={`${idx + 1}`}
+                />
+              ))}
             </div>
-            <div className="grid grid-flow-col auto-cols-max gap-4 ">
-                          <div className="flex items-center gap-2 overflow-hidden">Updating the Credly section here</div>
-              <div className="grid gap-4 grid-flow-row ">                  
-                
-                
-                <div className="grid gap-4 grid-flow-row h-20 w-20">IIT Roorkee Certification link: TO DO</div>
-                 <div className="grid gap-4 grid-flow-row h-20 w-20">DataCamp link: To DO</div>   </div>         
-                 <div className="bg-[#F1F1F1] dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 py-20 pb-40">
-          {certData.accepted_badges.map((badg, idx) => (
-            <BadgeCard
-              name={badg.name}
-              link={"https://credly.com/badges/${badg.id}"}
-              id={badg.id}
-              image={badg.image}
-              number={`${idx + 1}`}
-            />
-          ))}
+          </div>
         </div>
       </div>
-        </div>
       </div>
     </section>
   );
@@ -92,7 +93,7 @@ export default function BadgesCert() {
 const BadgeCard = ({ name, link, image, number, id }) => {
   return (
     <a href="https://credly.com/badges/" className="w-full block shadow-2xl">
-      
+
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <img
