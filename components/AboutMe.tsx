@@ -105,7 +105,7 @@ export default function AboutMe() {
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Programming Languages </h3>
             <div className="grid grid-flow-col auto-cols-max gap-4 ">
-              <div className="flex items-center gap-2 overflow-hidden"><a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img 
+              <div className="flex items-center gap-2 overflow-hidden"><a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp"
                 className="h-10 w-10 mx-2 my-2 object-contain" /><p className="text-sm font-semibold leading-4 tracking-tight">C# </p></a></div>
 
@@ -133,8 +133,7 @@ export default function AboutMe() {
                 className="h-10 w-10 mx-2 my-2" />CSS3 </a></div>
 
               <div className="flex items-center"><a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img
-                src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40"
-                height="40" />Tailwind </a></div>
+                src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" className="h-10 w-10 mx-2 my-2" />Tailwind </a></div>
 
               <div className="flex items-center"><a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
@@ -166,8 +165,7 @@ export default function AboutMe() {
               </a></div>
 
               <div><a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer"> <img
-                src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40"
-                height="40" />Hadoop </a></div>
+                src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" className="h-10 w-10 mx-2 my-2" />Hadoop </a></div>
 
               <div><a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img
                 src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" className="h-10 w-10 mx-2 my-2" />
@@ -188,8 +186,7 @@ export default function AboutMe() {
             </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">AI/ML</h3>
             <div className="grid grid-flow-col auto-cols-max gap-4 ">
               <div><a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img
-                src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40"
-                height="40" /> TensorFlow</a></div>
+                src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" className="h-10 w-10 mx-2 my-2" /> TensorFlow</a></div>
 
               <div><a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img
                 src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn"
@@ -224,16 +221,14 @@ export default function AboutMe() {
             <div className="grid grid-flow-col auto-cols-max gap-4 ">
 
               <div><a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img
-                src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40"
-                height="40" />Kubernetes </a></div>
+                src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" className="h-10 w-10 mx-2 my-2" />Kubernetes </a></div>
 
               <div><a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
                 alt="docker" className="h-10 w-10 mx-2 my-2" /> Docker</a></div>
 
               <div><a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img
-                src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40"
-                height="40" />Azure DevOps</a></div>
+                src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" className="h-10 w-10 mx-2 my-2" />Azure DevOps</a></div>
 
             </div><h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">Framework</h3>
             <div className="grid grid-flow-col auto-cols-max gap-4 ">
