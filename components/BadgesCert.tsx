@@ -79,11 +79,11 @@ const BadgeCard = ({ name, link, image, number, id }) => {
     <a href="https://credly.com/badges/" className="w-full block shadow-2xl">
 
       <div className="relative overflow-hidden">
-        <div className="h-72 object-cover">
+        <div className="h-50 object-cover">
           <img
             src={image}
             alt={name}
-            className="transform hover:scale-80 transition duration-2000 ease-out object-contain h-30 w-40"
+            className="transform hover:scale-80 transition duration-2000 ease-out object-cover h-30 w-40"
           />
         </div>
         <h1 className="px-4 py-1 text-sm text-red-600 font-semibold rounded-full border border-red-200 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">
