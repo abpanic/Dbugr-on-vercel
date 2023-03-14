@@ -51,7 +51,7 @@ export default function BadgesCert() {
         <div className="grid grid-flow-col auto-cols-max gap-4 ">
 
             <div className="bg-[#F1F1F1] dark:bg-gray-900">
-              <div className="max-w-6xl mx-auto grid grid-cols-3 md:grid-cols-2 gap-4 py-20 pb-40">
+              <div className="max-w-3xl mx-auto grid grid-cols-3 md:grid-cols-2 gap-2 py-20 pb-40">
                 {certData.accepted_badges.map((badg, idx) => (
                   <BadgeCard
                     name={badg.name}
@@ -83,7 +83,7 @@ const BadgeCard = ({ name, link, image, number, id }) => {
           <img
             src={image}
             alt={name}
-            className="transform hover:scale-80 transition duration-2000 ease-out object-contain h-20 w-30"
+            className="transform hover:scale-80 transition duration-2000 ease-out object-contain h-30 w-40"
           />
         </div>
         <h1 className="px-4 py-1 text-sm text-red-600 font-semibold rounded-full border border-red-200 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">
