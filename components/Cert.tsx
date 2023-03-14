@@ -43,7 +43,7 @@ export default function Cert() {
           </div>
         
       
-      <div><h3 className="bg-green-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges: TO DO- add scripts to help verify authenticity </h3>
+      <div><h3 className="bg-green-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges: </h3>
         <div className="grid grid-flow-col auto-cols-max gap-4 ">
 
             <div className="bg-[#F1F1F1] dark:bg-gray-900">
@@ -51,7 +51,7 @@ export default function Cert() {
                 {certData.accepted_badges.map((badg, idx) => (
                   <BadgeCard
                     name={badg.name}
-                    link={"https://credly.com/badges/${badg.id}"}
+                    link={"https://credly.com/badges/".concat(badg.id)}
                     id={badg.id}
                     image={badg.image}
                     number={`${idx + 1}`}
