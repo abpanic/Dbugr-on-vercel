@@ -61,7 +61,7 @@ export default function BadgesCert() {
             <div><h3 className="bg-green-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges </h3>
             </div>
             <div className="grid grid-flow-col auto-cols-max gap-4 ">
-              <div className="flex items-center gap-2 overflow-hidden">Updating the Credly section here</div>
+                          <div className="flex items-center gap-2 overflow-hidden">Updating the Credly section here</div>
               <div className="grid gap-4 grid-flow-row h-20 w-20">
                 <a href="https://www.credly.com/badges/90a3d6b2-1dad-4027-8979-1d6f9f222588/">Acclaim Badge link Testing
                 </a></div>
