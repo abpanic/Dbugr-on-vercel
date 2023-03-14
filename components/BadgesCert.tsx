@@ -99,15 +99,13 @@ const BadgeCard = ({ name, link, image, number, id }) => {
           <img
             src={image}
             alt={name}
-            className="transform hover:scale-80 transition duration-2000 ease-out object-contain h-48 w-96"
+            className="transform hover:scale-80 transition duration-2000 ease-out object-contain h-30 w-48"
           />
         </div>
-        <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+        <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-green-500 rounded-md px-2">
           {name}
         </h1>
-        <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-          {number.length === 1 ? "0" + number : number}
-        </h1>
+
       </div>
     </a>
   );
