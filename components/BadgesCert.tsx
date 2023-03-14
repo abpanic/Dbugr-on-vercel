@@ -5,11 +5,7 @@ import userData from "../constants/badgeinfo";
 export default function BadgesCert() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h3 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          Certifications & Badges
-        </h3>
-      </div>
+
       <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Social Buttons */}
@@ -79,7 +75,7 @@ const BadgeCard = ({ name, link, image, number, id }) => {
     <a href="https://credly.com/badges/" className="w-full block shadow-2xl">
 
       <div className="relative overflow-hidden">
-        <div className="h-50 object-cover">
+        <div className="h-50 w-50 object-cover">
           <img
             src={image}
             alt={name}
