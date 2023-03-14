@@ -11,16 +11,18 @@ const userData = {
       title: "Web Dev 101 for SDK Engineer onboarding",
       link: "https://webdevtutorials101.netlify.app/",
       imgUrl: "/webdev101.png",
+      skills: ["docsify", "IT Training", "Microsoft Instructor", "Information Technology Instructor", "JavaScript", "SDK"],
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
+      title: "Fina Frontier",
+      link: "https://finafrontier.in",
       imgUrl: "/placeholdertech.png",
     },
     {
       title: "Portfolio",
       link: "https://dbugr.netlify.app",
       imgUrl: "/portfolio.png",
+      skills: ["Jekyll", "Bootstrap"],
     },
     {
       title: "CovidRescue",
@@ -31,6 +33,7 @@ const userData = {
       title: "Learn Docsify",
       link: "https://learn-docsify.netlify.app/#/",
       imgUrl: "/algochurn.png",
+      skills:["Docsify","JavaScript"],
     },
     {
       title: "Playground",
@@ -91,7 +94,7 @@ const userData = {
     {
       title: "Proprietor",
       company: "FinFrontier",
-      year: "2008",
+      year: "2008 - 2011",
       companyLink: "https://www.finafrontier.in/",
       desc: "CRM and ERP solution to Small and Medium businesses in India. The business was wound up after nearly 4 years to trying to break-even. This was before the rise of cheap Internet. Selling software through CD/DVD didnot work due to privacy",
     },

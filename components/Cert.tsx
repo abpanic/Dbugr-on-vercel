@@ -72,7 +72,7 @@ export default function Cert() {
 
 const BadgeCard = ({ name, link, image, number, id }) => {
   return (
-    <a href="https://credly.com/badges/" className="w-full block shadow-1xl">
+    <a href={"https://credly.com/badges/".concat(id)} className="w-full block shadow-1xl">
 
       <div className="relative overflow-hidden">
         <div className="h-50 w-30 object-cover">
