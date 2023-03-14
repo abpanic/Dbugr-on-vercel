@@ -41,7 +41,7 @@ export default function BadgesCert() {
               </div>
             </div>
           </div>
-        </div>
+        
       
       <div><h3 className="bg-green-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges </h3>
         <div className="grid grid-flow-col auto-cols-max gap-4 ">
@@ -63,7 +63,7 @@ export default function BadgesCert() {
         </div>
       </div>
       </div>
-
+      </div>
     </section>
   );
 }
@@ -72,7 +72,7 @@ export default function BadgesCert() {
 
 const BadgeCard = ({ name, link, image, number, id }) => {
   return (
-    <a href="https://credly.com/badges/" className="w-full block shadow-2xl">
+    <a href="https://credly.com/badges/" className="w-full block shadow-1xl">
 
       <div className="relative overflow-hidden">
         <div className="h-50 w-30 object-cover">
