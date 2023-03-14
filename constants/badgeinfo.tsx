@@ -116,17 +116,6 @@ const certData = {
       skills: "",
     },
     {
-      id: "5932dc05-4217-4b8e-9c0f-3600e6358d8b",
-      name: "MB-210: Microsoft Dynamics 365 Sales Functional Consultant",
-      template: "5d421301-2813-481b-b133-d212f9883957",
-      created_by_id: "1392f199-abe0-4698-92b5-834610af6baf",
-      created_by_name: "Microsoft",
-      issued_at: "2019-06-14",
-      image: "/Badges-Credly_files/",
-      desc: "",
-      skills: "",
-    },
-    {
       id: "150e0b7b-5493-498d-9c90-b5bca09c91cf",
       name: "MTA: Windows Server Administration Fundamentals - Certified 2019",
       template: "dc769c1c-ab3d-44f5-88f1-91d9a249156c",
