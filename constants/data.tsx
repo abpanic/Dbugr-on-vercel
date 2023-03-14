@@ -102,6 +102,13 @@ const userData = {
       companyLink: "https://www.jnujaipur.ac.in/",
       desc: "Completed online along with my full time job. Thanks to new found financial freedom from personal financial liabilities.",
     },
+    {
+      title: "Proprietor",
+      company: "FinFrontier",
+      year: "2008",
+      companyLink: "https://www.finafrontier.in/",
+      desc: "CRM and ERP solution to Small and Medium businesses in India. The business was wound up after nearly 4 years to trying to break-even. This was before the rise of cheap Internet. Selling software through CD/DVD didnot work due to privacy",
+    },
   ],
   resumeUrl:
     "https://drive.google.com/file/d/1weerrr/view?usp=sharing",

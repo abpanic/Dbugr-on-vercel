@@ -69,7 +69,7 @@ export default function BadgesCert() {
             <div className="grid gap-4 grid-flow-row h-20 w-20">IIT Roorkee Certification link: TO DO</div>
             <div className="grid gap-4 grid-flow-row h-20 w-20">DataCamp link: To DO</div>   </div>
           <div className="bg-[#F1F1F1] dark:bg-gray-900">
-            <div className="max-w-6xl mx-auto grid grid-cols-3 md:grid-cols-2 gap-4 py-20 pb-40 object-contain">
+            <div className="max-w-6xl mx-auto grid grid-cols-3 md:grid-cols-2 gap-4 py-20 pb-40">
               {certData.accepted_badges.map((badg, idx) => (
                 <BadgeCard
                   name={badg.name}
@@ -99,7 +99,7 @@ const BadgeCard = ({ name, link, image, number, id }) => {
           <img
             src={image}
             alt={name}
-            className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
+            className="transform hover:scale-80 transition duration-2000 ease-out object-contain h-48 w-96"
           />
         </div>
         <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
