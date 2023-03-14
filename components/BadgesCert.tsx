@@ -40,7 +40,20 @@ export default function BadgesCert() {
                   </div>
                 </a></div>
               </div>
+              <div className="flex flex-row justify-start items-center">
+                <div><a
+                  href="https://www.coursera.org/account/accomplishments/specialization/SWDBDGADF5D3"
+                  className="flex flex-row items-center space-x-4 group"
+                >
+                  <div className="my-4">&rarr;</div>
+                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    Coursera
+                  </div>
+                </a></div>
+              </div>
             </div>
+          </div>
           </div>
           {/* Text area */}
          
@@ -50,16 +63,13 @@ export default function BadgesCert() {
             </div>
             <div className="grid grid-flow-col auto-cols-max gap-4 ">
                           <div className="flex items-center gap-2 overflow-hidden">Updating the Credly section here</div>
-              <div className="grid gap-4 grid-flow-row h-20 w-20">
-                <a href="https://www.credly.com/badges/90a3d6b2-1dad-4027-8979-1d6f9f222588/">Acclaim Badge link Testing
-                </a></div>
-                Coursera Certification Links:
-                https://www.coursera.org/account/accomplishments/specialization/SWDBDGADF5D3
-                </div>
-                <div className="grid gap-4 grid-flow-row h-20 w-20">IIT Roorkee Certification: TO DO</div>
-                 <div className="grid gap-4 grid-flow-row h-20 w-20">DataCamp link: To DO</div>            
+              <div className="grid gap-4 grid-flow-row ">                  
+                
+                
+                <div className="grid gap-4 grid-flow-row h-20 w-20">IIT Roorkee Certification link: TO DO</div>
+                 <div className="grid gap-4 grid-flow-row h-20 w-20">DataCamp link: To DO</div>   </div>         
                  <div className="bg-[#F1F1F1] dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 py-20 pb-40">
           {certData.accepted_badges.map((badg, idx) => (
             <BadgeCard
               name={badg.name}
