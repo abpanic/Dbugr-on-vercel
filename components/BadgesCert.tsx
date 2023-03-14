@@ -4,22 +4,6 @@ import userData from "../constants/data";
 export default function BadgesCert() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
-        <div className="text-container max-w-6xl mx-auto pt-20">
-          <p
-            className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
-            style={{ lineHeight: "3rem" }}
-          >
-            {userData.about.title}. Currently learning {" "}
-            <div><a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href={userData.about.currentProjectUrl}
-            >
-              {userData.about.currentProject} ✈️
-            </a></div>
-          </p>
-        </div>
-      </div>
       <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Social Buttons */}
@@ -71,9 +55,15 @@ export default function BadgesCert() {
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges </h3>
             <div className="grid grid-flow-col auto-cols-max gap-4 ">
               <div className="flex items-center gap-2 overflow-hidden">Updating the Credly section here</div>
-                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="90a3d6b2-1dad-4027-8979-1d6f9f222588" data-share-badge-host="https://www.credly.com"></div>
-                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+              <div className="grid gap-4 grid-flow-row h-20 w-20"  data-share-badge-id="90a3d6b2-1dad-4027-8979-1d6f9f222588">
+                <a href="https://www.credly.com/badges/90a3d6b2-1dad-4027-8979-1d6f9f222588/">Acclaim Badge link Testing
+                </a></div>
+                Coursera Certification Links:
+                https://www.coursera.org/account/accomplishments/specialization/SWDBDGADF5D3
                 </div>
+                <div>IIT Roorkee Certification: TO DO</div>
+                 <div>DataCamp link: To DO</div>             
+              
           </div>
         </div>
       </div>
