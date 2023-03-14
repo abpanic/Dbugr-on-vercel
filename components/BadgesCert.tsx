@@ -75,7 +75,7 @@ const BadgeCard = ({ name, link, image, number, id }) => {
     <a href="https://credly.com/badges/" className="w-full block shadow-2xl">
 
       <div className="relative overflow-hidden">
-        <div className="h-50 w-50 object-cover">
+        <div className="h-50 w-30 object-cover">
           <img
             src={image}
             alt={name}
