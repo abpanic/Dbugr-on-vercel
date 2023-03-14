@@ -1,5 +1,6 @@
 import React from "react";
-import userData from "../constants/data";
+import certData from "../constants/badgeinfo";
+import userData from "../constants/badgeinfo";
 
 export default function BadgesCert() {
   return (
@@ -42,29 +43,30 @@ export default function BadgesCert() {
             </div>
           </div>
           {/* Text area */}
-          <div className="col-span-1 md:col-span-2">
-            {userData.about.description?.map((desc, idx) => (
-              <p
-                key={idx}
-                className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
-              >
-                {desc}
-              </p>
-            ))}
+          <div className="bg-[#F1F1F1] dark:bg-gray-900">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
+          {certData.accepted_badges.map((badg, idx) => (
+            <BadgeCard
+              name={badg.name}
+              link={"https://credly.com/badges/${badg.id}"}
+              number={`${idx + 1}`}
+            />
+          ))}
+        </div>
+      </div>
 
             <h3 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges </h3>
             <div className="grid grid-flow-col auto-cols-max gap-4 ">
               <div className="flex items-center gap-2 overflow-hidden">Updating the Credly section here</div>
-              <div className="grid gap-4 grid-flow-row h-20 w-20"  data-share-badge-id="90a3d6b2-1dad-4027-8979-1d6f9f222588">
+              <div className="grid gap-4 grid-flow-row h-20 w-20">
                 <a href="https://www.credly.com/badges/90a3d6b2-1dad-4027-8979-1d6f9f222588/">Acclaim Badge link Testing
                 </a></div>
                 Coursera Certification Links:
                 https://www.coursera.org/account/accomplishments/specialization/SWDBDGADF5D3
                 </div>
-                <div>IIT Roorkee Certification: TO DO</div>
-                 <div>DataCamp link: To DO</div>             
-              
-          </div>
+                <div className="grid gap-4 grid-flow-row h-20 w-20">IIT Roorkee Certification: TO DO</div>
+                 <div className="grid gap-4 grid-flow-row h-20 w-20">DataCamp link: To DO</div>            
+                 
         </div>
       </div>
     </section>
@@ -73,3 +75,24 @@ export default function BadgesCert() {
 
 
 
+const BadgeCard = ({ name, link, number }) => {
+  return (
+    <a href={link} className="w-full block shadow-2xl">
+      <div className="relative overflow-hidden">
+        <div className="h-72 object-cover">
+          <img
+            src={link}
+            alt="portfolio"
+            className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
+          />
+        </div>
+        <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+          {name}
+        </h1>
+        <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+          {number.length === 1 ? "0" + number : number}
+        </h1>
+      </div>
+    </a>
+  );
+};
