@@ -31,33 +31,32 @@ const userData = {
     },
     {
       title: "Learn Docsify",
-      link: "https://learn-docsify.netlify.app/#/",
+      link: "https://learn-docsify.netlify.app/",
       imgUrl: "/algochurn.png",
       skills:["Docsify","JavaScript"],
     },
     {
       title: "Playground",
-      link: "https://play.placeholdertech.in",
+      link: "",
       imgUrl: "/playground.png",
     },
     {
       title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
+      link: "",
       imgUrl: "/feedmeback.png",
     },
     {
       title: "Devmedium",
-      link: "https://devmedium.vercel.app",
+      link: "",
       imgUrl: "/devmedium.png",
     },
   ],
   about: {
     title:
-      "I'm Data enthusiast with experience in Program Management, Data engineering and Software Development",
+      "I'm Data enthusiast(with MS in DataScience😊 ) with experience in Program Management, Data engineering, Software Development  ",
     description: [
-      `I've worked in several different roles with an overall experience of 15 years now, working through the ideation and whiteboarding stage to productization.`,
-      `I have spent enourmous amount of time troublshooting and debugging code  and coaching engineers to do it,  making me sincerely believe debugging is a skill.`,
-      'I do not just coach on coding but on debugging and whiteboarding as well since it is easy to write the code once you have thought through and well equiped to troublshoot and debugg rather than just typing away in IDE',
+      `Worked in several different roles with an overall experience of 15 years now, working through the ideation and whiteboarding stage to productization.`,
+      `Have spent enourmous amount of time troublshooting and debugging code myself and now coaching engineers to do it,  making me sincerely believe debugging is a skill.`,
     ],
     currentProject: "Web DEV 101",
     currentProjectUrl: "https://webdevtutorials101.netlify.app/",

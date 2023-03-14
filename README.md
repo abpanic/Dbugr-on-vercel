@@ -38,8 +38,7 @@ Blogs
 
 
 Certificates:
-- Add Coursera certificates
-- fix the links from credly badges
+- Add Coursera certificates link
 - Upload IIT Roorkee certificate
 
 Add Courses page:

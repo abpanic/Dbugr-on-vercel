@@ -1,6 +1,6 @@
 import React from "react";
 import certData from "../constants/badgeinfo";
-import userData from "../constants/badgeinfo";
+
 
 export default function Cert() {
   return (
