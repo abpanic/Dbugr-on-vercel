@@ -52,7 +52,6 @@ export default function Cert() {
                   <BadgeCard
                     name={badg.name}
                     link={"https://credly.com/badges/".concat(badg.id)}
-                    id={badg.id}
                     image={badg.image}
                     number={`${idx + 1}`}
                   />
@@ -70,19 +69,19 @@ export default function Cert() {
 
 
 
-const BadgeCard = ({ name, link, image, number, id }) => {
+const BadgeCard = ({ name, link, image, number, }) => {
   return (
-    <a href={"https://credly.com/badges/".concat(id)} className="w-full block shadow-1xl">
+    <a href={link} className="w-full block shadow-1xl">
 
       <div className="relative overflow-hidden">
-        <div className="h-50 w-30 object-cover">
+        <div className="h-50 w-30 object-cover transition ease-in-out hover:bg-indigo-500 duration-300">
           <img
             src={image}
             alt={name}
             className="transform hover:scale-80 transition duration-2000 ease-out object-cover h-30 w-40"
           />
         </div>
-        <h1 className="px-4 py-1 text-sm text-red-600 font-semibold rounded-full border border-red-200 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">
+        <h1 className="px-4 py-1 text-sm text-red-400 font-semibold rounded-full border border-red-200 hover:text-white hover:bg-red-400 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2">
           {name}
         </h1>
 
