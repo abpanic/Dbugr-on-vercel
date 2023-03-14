@@ -2,7 +2,7 @@ import React from "react";
 import certData from "../constants/badgeinfo";
 import userData from "../constants/badgeinfo";
 
-export default function BadgesCert() {
+export default function Cert() {
   return (
     <section className="bg-white dark:bg-gray-800">
 
@@ -43,7 +43,7 @@ export default function BadgesCert() {
           </div>
         
       
-      <div><h3 className="bg-green-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges: TO DO- link updation </h3>
+      <div><h3 className="bg-green-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">    Credly Badges: TO DO- add scripts to help verify authenticity </h3>
         <div className="grid grid-flow-col auto-cols-max gap-4 ">
 
             <div className="bg-[#F1F1F1] dark:bg-gray-900">

@@ -155,15 +155,15 @@ export default function Navbar() {
             )}
           </Link>
           <Link
-            href="/badgescert"
+            href="/cert"
             className={`text-base  ${
-              router.asPath === "/blog"
+              router.asPath === "/cert"
                 ? "text-gray-800 font-bold dark:text-gray-400"
                 : "text-gray-600 dark:text-gray-300 font-normal "
             }`}
           >
-            Badges and Certifications
-            {router.asPath === "/blog" && (
+            Certifications
+            {router.asPath === "/cert" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -263,6 +263,12 @@ export default function Navbar() {
           className="text-base font-normal text-gray-600 dark:text-gray-300"
         >
           Blog
+        </Link>
+        <Link
+          href="/cert"
+          className="text-base font-normal text-gray-600 dark:text-gray-300"
+        >
+          Certifications
         </Link>
       </div>
     </div>
