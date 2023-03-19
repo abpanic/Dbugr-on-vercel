@@ -1,36 +1,25 @@
 import axios from "axios";
+import userData from '../constants/data';
 
-const getLatestRepos = async (data, token) => {
-  // console.log("data", data);
+const getLatestRepos = async (data: { githubUsername: string }, token?:string) => {
+  
   try {
-    const username = data.githubUsername;
+    const username = userData.githubUsername;
+    const tokenHeader = token? {Authorization: `token ${process.env.GITHUB_AUTH_TOKEN}` } : {} ;
 
-    let token = `token ${process.env.GITHUB_AUTH_TOKEN}`;
-    // console.log("TOKEN", token);
-
-    if (token) {
-      const res = await axios.get(
+    const res = await axios.get(
         `https://api.github.com/search/repositories?q=user:${username}+sort:author-date-asc`,
         {
-          headers: {
-            Authorization: `token ${token}`,
-          },
+          headers: tokenHeader,
         }
       );
-      let repos = res.data.items;
-      let latest5Repos = repos.splice(0, 5);
+      const repos = res.data?.items??[];
+      const latest5Repos = repos.splice(0, 5);
       
       return latest5Repos;
-    } else {
-      const res = await axios.get(
-        `https://api.github.com/search/repositories?q=user:${username}+sort:author-date-asc`
-      );
-      let repos = res.data.items;
-      let latest5Repos = repos.splice(0, 5);
-      return latest5Repos;
-    }
   } catch (err) {
     console.log(err);
+    return[];
   }
 };
 

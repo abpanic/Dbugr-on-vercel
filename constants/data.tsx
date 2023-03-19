@@ -32,7 +32,7 @@ const userData = {
     {
       title: "Learn Docsify",
       link: "https://learn-docsify.netlify.app/",
-      imgUrl: "/algochurn.png",
+      imgUrl: "/learndocsify.jpg",
       skills:["Docsify","JavaScript"],
     },
     {

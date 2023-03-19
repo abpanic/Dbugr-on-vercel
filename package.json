@@ -8,14 +8,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.0.0-rc.2",
+    "@mdx-js/react": "^2.0.0-rc.2",
     "axios": "^0.21.1",
     "dotenv": "^16.0.3",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "next-themes": "latest",
+    "octokit": "^2.0.14",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
-    "react-rough-notation": "^1.0.1"
+    "react-rough-notation": "^1.0.1",
+    "rehype-highlight": "^6.0.0",
+    "remark-frontmatter": "^4.0.1"
   },
   "devDependencies": {
     "@types/node": "^18.14.2",
