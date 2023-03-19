@@ -14,7 +14,7 @@ const getLatestRepos = async (data: { githubUsername: string }, token?:string) =
         }
       );
       const repos = res.data?.items??[];
-      const latest5Repos = repos.splice(0, 5);
+      const latest5Repos = repos.slice(0, 5);
       
       return latest5Repos;
   } catch (err) {
