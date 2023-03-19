@@ -3,9 +3,9 @@ const userData = {
   name: "Abhilash Panicker",
   designation: "Data Enthusiast and Developer",
   avatarUrl: "/abpanic.jpg",
-  email: "abhilash.panicker@outlook.com",
-  phone: "+91 9833155113",
-  address: "Cherthala, India.",
+  email: "<Hidden>",
+  phone: "<Hidden>",
+  address: "Thiruvananthpuram, India.",
   projects: [
     {
       title: "Web Dev 101 for SDK Engineer onboarding",
@@ -65,9 +65,16 @@ const userData = {
     {
       title: "Partner Technical Advisor",
       company: "Microsoft",
-      year: "2016 - present",
+      year: "2017 - present",
       companyLink: "https://microsoft.com",
       desc: "Built teams for troublshooting Software Development Kit(SDK) at Partner Sonata consisting of 35 Engineers along with product and process improvement with Agile.",
+    },
+    {
+      title: "Support Escalation Engineer",
+      company: "Microsoft",
+      year: "2016 - 2017",
+      companyLink: "https://microsoft.com",
+      desc: "Handling political escalations for the team.",
     },
     {
       title: "Technical Consultant",
