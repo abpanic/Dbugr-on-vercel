@@ -1,5 +1,6 @@
 import React from "react";
 import certData from "../constants/badgeinfo";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 
 export default function Cert() {
@@ -72,19 +73,19 @@ export default function Cert() {
 const BadgeCard = ({ name, link, image, number, }) => {
   return (
     <a href={link} className="w-full block shadow-1xl">
-
+      <div className="flex">
       <div className="relative overflow-hidden">
-        <div className="h-50 w-30 object-cover ">
+        <div className="object-cover h-50 w-50">
           <img
             src={image}
             alt={name}
-            className="transform hover:scale-110 transition ease-in-out delay-150 h-30 w-40"
+            className="transform hover:scale-110 transition ease-in-out delay-150 h-40 w-40"
           />
         </div>
-        <h1 className="px-4 py-1 text-sm text-red-400 font-semibold rounded-full border border-red-200 hover:text-white hover:bg-red-400 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2">
+        <h2 className="px-4 py-2 text-sm text-red-400 font-semibold rounded-full border border-red-200 hover:text-white hover:bg-red-400 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2">
           {name}
-        </h1>
-
+        </h2>
+        </div>
       </div>
     </a>
   );

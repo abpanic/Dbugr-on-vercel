@@ -82,7 +82,7 @@ const userData = {
     },
     {
       title: "Proprietor",
-      company: "FinFrontier",
+      company: "FinaFrontier",
       year: "2008 - 2011",
       companyLink: "https://www.finafrontier.in/",
       desc: "CRM and ERP solution to Small and Medium businesses in India. The business was sold after nearly 4 years for 10 lakhs. This was before the rise of cheap Internet. Selling software through CD/DVD didnot work well due to privacy",
@@ -99,9 +99,9 @@ const userData = {
     {
       title: "Bachelor of Computer Application",
       company: "Jaipur National University, Jaipur.",
-      year: "2015",
+      year: "2019",
       companyLink: "https://www.jnujaipur.ac.in/",
-      desc: "Completed online along with my full time job. Thanks to new found financial freedom from personal financial liabilities.",
+      desc: "Thanks to better time management skills, I had enough time to complete this along with my full-time job ",
     },
     {
       title: "Bachelor of Technology - Electrical",

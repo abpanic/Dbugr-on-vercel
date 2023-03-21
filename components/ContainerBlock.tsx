@@ -9,7 +9,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
   const meta = {
     title: "Abhilash Panicker -  Data Enthusisast, Developer, Debugger  , Program Manager",
-    description: `I've been troublshooting, developing and now managing programs recently, for over 12 years. Get in touch with me to know more.`,
+    description: `I've been troublshooting, developing and now managing programs recently, for over 15 years. Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website",
     date: "01-01-2023",

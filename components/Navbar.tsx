@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import userData from "../constants/data";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 export default function Navbar() {
   const router = useRouter();
@@ -15,8 +16,11 @@ export default function Navbar() {
   }, []);
 
   return (
+    
+            
     <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
       <div className="flex  md:flex-row justify-between items-center">
+      
         <div className="flex flex-col">
           <Link href="/">
             <h1 className="font-semibold text-xl dark:text-gray-100">
@@ -52,6 +56,7 @@ export default function Navbar() {
                   d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
                 />
               </svg>
+               
             )}
           </Link>
           <Link
@@ -207,6 +212,7 @@ export default function Navbar() {
               </svg>
             )}
           </button>
+          
         </div>
       </div>
       <div className="space-x-8 block md:hidden mt-4">
@@ -243,5 +249,6 @@ export default function Navbar() {
         </Link>
       </div>
     </div>
+    
   );
 }

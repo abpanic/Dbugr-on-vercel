@@ -36,7 +36,7 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 For any sort help / enquiry, shoot a{" "}
                 <div><a
-                  href={`mailto:${userData.email}`}
+                  href={`mailto:abhilash.panicker@outlook.com`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   mail

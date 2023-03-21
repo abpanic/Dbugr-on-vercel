@@ -71,17 +71,6 @@ const certData = {
       skills: "",
     },   
     {
-      id: "9fc49607-06db-41e7-b865-62c8e0c364e0",
-      name: "Hadoop Foundations - Level 1",
-      template: "3c4382ab-0fd0-4b81-b15f-0bcc73f0a518",
-      created_by_id: "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
-      created_by_name: "IBM",
-      issued_at: "2022-08-16",
-      image: "/Badges-Credly_files/Hadoop_Data_Found_Level_1_-_CC_-_2019.png",
-      desc: "",
-      skills: "",
-    },
-    {
       id: "684b58cb-5a4d-47d5-9442-f1f1423c7862",
       name: "Microsoft Global Hackathon 2021",
       template: "d16bc249-f631-4451-a786-8faaf8a19bb6",
@@ -160,7 +149,7 @@ const certData = {
     }, 
     {
       id: "60f48527-fdd2-4f99-bb35-3414ce8f2ea1",
-      name: "MTA: Cloud Fundamentals - Certified 2019",
+      name: "MTA: Cloud Fundamentals",
       template: "0c1961a6-92e1-42da-96f2-6fd3260ce2a3",
       created_by_id: "1392f199-abe0-4698-92b5-834610af6baf",
       created_by_name: "Microsoft",
@@ -182,7 +171,7 @@ const certData = {
     },
     {
       id: "150e0b7b-5493-498d-9c90-b5bca09c91cf",
-      name: "MTA: Windows Server Administration Fundamentals - Certified 2019",
+      name: "MTA: Windows Server Administration Fundamentals",
       template: "dc769c1c-ab3d-44f5-88f1-91d9a249156c",
       created_by_id: "1392f199-abe0-4698-92b5-834610af6baf",
       created_by_name: "Microsoft",
@@ -204,7 +193,7 @@ const certData = {
     },
     {
       id: "7c3fb111-5a85-411f-a4b0-8d9d6e32e9ca",
-      name: "MTA: Introduction to Programming Using JavaScript - Certified 2020",
+      name: "MTA: Introduction to Programming Using JavaScript",
       template: "5e67e735-7a00-41f2-98f8-2d16a6f9ff17",
       created_by_id: "1392f199-abe0-4698-92b5-834610af6baf",
       created_by_name: "Microsoft",
