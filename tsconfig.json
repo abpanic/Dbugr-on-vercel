@@ -26,7 +26,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/Blog.js", "components/AboutMe.tsx", "pages/index.tsx", "pages/projects.tsx"  ],
+, "components/BlogPage.js", "components/AboutMe.tsx", "pages/index.tsx", "pages/projects.tsx"  ],
   "exclude": [
     "node_modules"
   ]

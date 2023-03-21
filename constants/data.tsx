@@ -24,32 +24,15 @@ const userData = {
       imgUrl: "/portfolio.png",
       skills: ["Jekyll", "Bootstrap"],
     },
-    {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
-    },
+
     {
       title: "Learn Docsify",
       link: "https://learn-docsify.netlify.app/",
       imgUrl: "/learndocsify.jpg",
       skills:["Docsify","JavaScript"],
     },
-    {
-      title: "Playground",
-      link: "",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "",
-      imgUrl: "/devmedium.png",
-    },
+
+
   ],
   about: {
     title:
@@ -81,28 +64,28 @@ const userData = {
       company: "Wipro",
       year: "2014-2016",
       companyLink: "https://wipro.com",
-      desc: "Data Engineer.",
+      desc: "Technical Lead for Microsoft Dynamics CRM (Cloud operations)",
     },
     {
       title: "Technical Associate",
       company: "IKS Health(formerly Inventurus Knowledge Solutions)",
       year: "2013- 2014",
       companyLink: "https://www.ikshealth.com",
-      desc: "Bringing products from ideation to productization stage",
+      desc: "Data Engineer for new client entity: Physiotherapy Associates, US that consisted of 700 clinics.",
     },
     {
       title: "Customer Care Representative",
       company: "Sitel",
       year: "2011 - 2013",
       companyLink: "https://www.sitel.com",
-      desc: "For MS SQL,develop mitigation scripts, perform database support activities, performance tuning and general troubleshooting with tools:  NetMon, ProcMon, Fiddler, SQL Profiler",
+      desc: "Support Engineer for Microsoft SQL paid support",
     },
     {
       title: "Proprietor",
       company: "FinFrontier",
       year: "2008 - 2011",
       companyLink: "https://www.finafrontier.in/",
-      desc: "CRM and ERP solution to Small and Medium businesses in India. The business was wound up after nearly 4 years to trying to break-even. This was before the rise of cheap Internet. Selling software through CD/DVD didnot work due to privacy",
+      desc: "CRM and ERP solution to Small and Medium businesses in India. The business was sold after nearly 4 years for 10 lakhs. This was before the rise of cheap Internet. Selling software through CD/DVD didnot work well due to privacy",
     },
   ],
   education: [
@@ -157,7 +140,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1weerrr/view?usp=sharing",
+    "https://docs.google.com/document/d/1jiecDkg8jQn6a0m83jzvvxsEFW1Jl6mx/edit?usp=sharing&ouid=114010472443327264555&rtpof=true&sd=true",
   socialLinks: {
     /*instagram: "https://instagram.com/",*/
     linkedin: "https://linkedin.com/in/abhilash-panicker-68952b159",

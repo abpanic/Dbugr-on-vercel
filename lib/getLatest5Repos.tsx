@@ -1,7 +1,7 @@
 import axios from "axios";
 import userData from "../constants/data";
 
-const getLatestRepos = async (data, token) => {
+const getLatest5Repos = async (data, token) => {
   try {
     const username = userData.githubUsername;
 
@@ -25,4 +25,4 @@ const getLatestRepos = async (data, token) => {
   }
 };
 
-export default getLatestRepos;
+export default getLatest5Repos;
