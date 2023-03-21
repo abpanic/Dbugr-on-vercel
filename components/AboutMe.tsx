@@ -1,9 +1,11 @@
 import React from "react";
 import userData from "../constants/data";
 
+
 export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
+
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           About Me.
@@ -36,7 +38,7 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 For any sort help / enquiry, shoot a{" "}
                 <div><a
-                  href={`mailto:abhilash.panicker@outlook.com`}
+                  href={`https://dbugr.vercel.app/contact/`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   mail
@@ -49,7 +51,7 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently as PM or Data Scientist, with an exciting challenge. If you see me as a good fit,
+                I'm looking for a new and exciting challenge. If you see me as a good fit,
                 check my{" "}
                 <div><a
                   href={userData.resumeUrl}
