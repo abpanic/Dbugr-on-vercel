@@ -30,7 +30,7 @@ const ExperienceCard = ({
   );
 };
 
-export default function Experience(): ReactNode {
+export default function Experience(): JSX.Element {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">

@@ -1,4 +1,4 @@
-import React, {ReactNode} from "react";
+import React from "react";
 import ContainerBlock from "../components/ContainerBlock";
 import Projects from "../components/Projects";
 
