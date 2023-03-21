@@ -1,5 +1,5 @@
 import Cert from "../components/Cert";
-import React from "react";
+import React, {ReactNode} from "react";
 import ContainerBlock from "../components/ContainerBlock";
 
 export default function cert() {

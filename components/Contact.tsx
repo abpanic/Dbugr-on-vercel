@@ -3,11 +3,17 @@ import userData from 'constants/data';
 import { useForm, ValidationError } from '@formspree/react';
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
+
 export default function Contact() {
     const [state, handleSubmit] = useForm("xyyvnzaq");
+    function handleClick() {
+      window.alert(`Message sent!`);
+    }
     if (state.succeeded) {
         return <p>Thanks for messaging!</p>;
     }
+
+
     return (
         <section>
         <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
@@ -146,12 +152,14 @@ export default function Contact() {
           errors={state.errors}
         />         
         
-              <button
-                type="submit" disabled={state.submitting}
+        
+              <button type="submit" disabled={state.submitting}
                 className="bg-blue-500 rounded-full w-1/4 mx-4 mt-8 py-2 text-white-50 text-xs font-bold"
               >
                 Send Message
-              </button>
+                </button>
+                
+              
               </form>
               </RoughNotation>
               </RoughNotationGroup>

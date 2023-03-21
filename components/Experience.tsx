@@ -1,7 +1,36 @@
 import userData from "../constants/data";
-import React from "react";
+import React, { ReactNode } from "react";
 
-export default function Experience() {
+interface ExperienceCardProps {
+  title: string;
+  desc: string;
+  year: string;
+  company: string;
+  companyLink: string;
+}
+
+const ExperienceCard = ({
+  title,
+  desc,
+  year,
+  company,
+  companyLink,
+}: ExperienceCardProps) => {
+  return (
+    <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
+      <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-blue-200 font-bold dark:text-white-800">
+        {year}
+      </h1>
+      <h1 className="font-semibold text-xl">{title}</h1>
+      <a href={companyLink} className="text-blue-500">
+        {company}
+      </a>
+      <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
+    </div>
+  );
+};
+
+export default function Experience(): ReactNode {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
@@ -12,10 +41,9 @@ export default function Experience() {
       <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
         <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
           {/* Experience card */}
-          {userData.experience.map((exp, idx) => (
-            <>
+          {userData.experience.map((exp: ExperienceCardProps, idx: number) => (
+            <React.Fragment key={idx}>
               <ExperienceCard
-                key={idx}
                 title={exp.title}
                 desc={exp.desc}
                 year={exp.year}
@@ -30,25 +58,10 @@ export default function Experience() {
                   <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
                 </div>
               )}
-            </>
+            </React.Fragment>
           ))}
         </div>
       </div>
     </section>
   );
 }
-
-const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
-  return (
-    <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
-      <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-blue-200 font-bold dark:text-white-800">
-        {year}
-      </h1>
-      <h1 className="font-semibold text-xl">{title}</h1>
-      <a href={companyLink} className="text-blue-500">
-        {company}
-      </a>
-      <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
-    </div>
-  );
-};

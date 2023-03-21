@@ -36,10 +36,11 @@ const userData = {
   ],
   about: {
     title:
-      "I'm Data enthusiast(with MS in DataScience😊 ) with experience in Program Management, Data engineering, Software Development  ",
+      "Data Enthusiast | Program Manager | Software Developer | Debugging Coach",
     description: [
-      `Worked in several different roles with an overall experience of 15 years now, working through the ideation and whiteboarding stage to productization.`,
-      `Have spent enourmous amount of time troublshooting and debugging code myself and now coaching engineers to do it,  making me sincerely believe debugging is a skill.`,
+      'With a master\'s degree in Data Science and over 15 years of experience in program management, data engineering, and software development, I am a skilled data science expert, program manager, and software developer.',
+      'I have a passion for building innovative solutions and driving projects from inception to productization.',
+      'I am also an experienced debugging coach and believe that effective debugging requires a combination of technical knowledge and communication skills.I have honed my debugging skills through years of practice and enjoy coaching others to improve their skills'
     ],
     currentProject: "Web DEV 101",
     currentProjectUrl: "https://webdevtutorials101.netlify.app/",

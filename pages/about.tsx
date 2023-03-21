@@ -1,4 +1,4 @@
-import React from "react";
+import React, {ReactNode} from "react";
 import ContainerBlock from "../components/ContainerBlock";
 import AboutMe from "../components/AboutMe";
 

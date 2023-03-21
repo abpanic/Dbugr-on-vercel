@@ -8,11 +8,12 @@ badgeinfo.tsx-> Provide information on any certifications and Badges like credly
 # Tech Stack
 
 
-- [Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) for building React Components.
+- [![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/) for building React Components.
 - [![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com) for styling.
 - [React Rough Notation](https://roughnotation.com) for Hero section highlighting.
 - [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/) for the code
 - [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com) for deployments and CI/CD.
+- [![BootstrapIcon](https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png)](https://icons.getbootstrap.com/) for smooth icon library.
 
 # Usage
 
@@ -34,7 +35,7 @@ Blogs
 - complete blogs page set-up
 - Write more content
 - authentication v/s Authorization 
-- Why MQTT ?
+- add link to authored dev.to blogs
 
 
 Certificates:

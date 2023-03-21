@@ -1,6 +1,13 @@
 import React from "react";
 import userData from "../constants/data";
 
+interface ProjectCardProps {
+  title: string;
+  link: string;
+  imgUrl: string;
+  number: number;
+}
+
 export default function Projects() {
   return (
     <section className="bg-white dark:bg-gray-800">
@@ -17,7 +24,8 @@ export default function Projects() {
               title={proj.title}
               link={proj.link}
               imgUrl={proj.imgUrl}
-              number={`${idx + 1}`}
+              number={idx + 1}
+              key={idx}
             />
           ))}
         </div>
@@ -26,7 +34,12 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  title,
+  link,
+  imgUrl,
+  number,
+}) => {
   return (
     <a href={link} className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
@@ -41,7 +54,7 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
           {title}
         </h1>
         <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-          {number.length === 1 ? "0" + number : number}
+          {number < 10 ? `0${number}` : number}
         </h1>
       </div>
     </a>

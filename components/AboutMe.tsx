@@ -1,6 +1,15 @@
 import React from "react";
 import userData from "../constants/data";
 
+type DescProps = {
+  desc: string;
+};
+
+const Description = ({ desc }: DescProps) => {
+  return (
+    <p className="text-xl text-gray-700 mb-4 dark:text-gray-300">{desc}</p>
+  );
+};
 
 export default function AboutMe() {
   return (
@@ -17,13 +26,13 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on{" "}
+            {userData.about.title}.{/* Currently working on{" "}
             <div><a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
             >
               {userData.about.currentProject} ✈️
-            </a></div>
+            </a></div>*/}
           </p>
         </div>
       </div>

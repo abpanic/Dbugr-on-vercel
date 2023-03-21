@@ -15,11 +15,13 @@
     "bootstrap-icons": "^1.10.3",
     "dotenv": "^16.0.3",
     "next": "latest",
+    "next-auth": "^4.20.1",
     "next-themes": "latest",
     "octokit": "^2.0.14",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
-    "react-rough-notation": "^1.0.1"
+    "react-rough-notation": "^1.0.1",
+    "wired-elements-react": "^0.1.5"
   },
   "devDependencies": {
     "@types/node": "^18.14.2",
