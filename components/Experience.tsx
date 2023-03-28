@@ -3,7 +3,7 @@ import React, { ReactNode } from "react";
 
 interface ExperienceCardProps {
   title: string;
-  desc: string;
+  desc: string[];
   year: string;
   company: string;
   companyLink: string;
@@ -25,7 +25,12 @@ const ExperienceCard = ({
       <a href={companyLink} className="text-blue-500">
         {company}
       </a>
-      <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
+      {/*<p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>*/}
+      <ul className="list-disc list-inside">
+        {desc.map((item, idx) => (
+          <li key={idx}>{item}</li>
+        ))}
+      </ul>
     </div>
   );
 };
@@ -39,7 +44,7 @@ export default function Experience(): JSX.Element {
         </h1>
       </div>
       <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
-        <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
+        <div className="grid grid-cols-1 dark:bg-gray-900 max-w-4xl mx-auto pt-20">
           {/* Experience card */}
           {userData.experience.map((exp: ExperienceCardProps, idx: number) => (
             <React.Fragment key={idx}>
