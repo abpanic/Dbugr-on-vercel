@@ -51,20 +51,20 @@ const userData = {
       company: "Microsoft",
       year: "2019 - present",
       companyLink: "https://microsoft.com",
-      desc:[ "Customer experience program management for SDK support in Digital Transformation Platform.",
-      "Set-up a geographically dispersed team of 27 engineers, 3 Technical Leads for diverse customer base across 2 continents.",
-      "Upskilling Engineers on Azure DevOps and GitHub for CI/CD operations, Custom code debugging.",
-      "Data driven analysis in support topics for increased focus to reduce escalations from Tier 1 team by 11%.", 
-      "Built high skill SME team (internal Tier 2) at Partner location working exclusively working on Strategic , Escalations and Premier(for fee) volumes enabling the team to take 60% of the volume.",
-      "Agile Change Management for continuously evolving cloud landscape while still maintaining.",
-      "Anticipating issues and assessing impacted segments by identifying and implementing long-term solutions by utilizing historic data and forecasting mechanism along with measuring impact across an issue lifecycle to optimize the mix of solutions and maximize customer satisfaction.",
-      "D365 SDK Tutorials (webdevtutorials101.netlify.app)",
-      "",
-      "Proactive Support/Advisory Service:",
-      "Advisory for Strategic Customers workload migration, solution lifecycle management for Digital Transformation Platform.",
-      "Collaborating with ISVs (Independent Software Vendors), MSP (Managed Service Providers), and SIs (System Integrators) to deliver high-impact solutions on the Dynamics platform with assistance in best practice to list in Microsoft AppSource.",
-      "Bug tracking portal for customers to track their bug status and get email alert when released resulting in 100% improvement in case closure on bug cases.",
-      "Allocating and aligning resources to optimize the customer experience ensuring deliverables are met on time and on budget."    
+      desc:[ "Serving in Program Management role for Customer Experience",
+        "	Led a team of 27 engineers, 3 Technical Leads for diverse customer base across 2 continents with delivery Partner Sonata Software.",
+        "	Upskilling Engineers Azure DevOps and GitHub for CI/CD operations, Custom code debugging to work on 100% of the volume in-house.",
+        "	Developed and implemented data-driven analysis for support topics, resulting in increased focus and reduced escalations from Tier 1 team by 11%. ",
+        "	Built high skill SME team (internal Tier 2) at Partner location working exclusively working on Strategic , Escalations and Premier(for fee) volumes enabling the team to take 60% of the volume.",
+        "	Successfully implemented Agile Change Management for continuously evolving cloud landscape while still maintaining SLAs.",
+        "	Project Management for projects time to time for case hygiene, new feature roll-out, etc. for delivery on time and on budget.",
+        "	 Projects on upskilling for Partner and SDK Engineers : D365 SDK Tutorials (webdevtutorials101.netlify.app) ",
+        
+        "Proactive Support/Advisory Service:",
+        "	Advisory for Strategic Customers workload migration, solution lifecycle management for Digital Transformation Platform.",
+        "	Collaborated with ISVs (Independent Software Vendors), MSP (Managed Service Providers), and SIs (System Integrators) to deliver high-impact solutions on the Dynamics platform with assistance in best practice to list in Microsoft AppSource.",
+        "	Bug tracking portal for customers to track their bug status and get email alert when released resulting in 100% improvement in case closure on bug cases.",
+            
         ]
     },
     {
@@ -72,14 +72,23 @@ const userData = {
       company: "Microsoft",
       year: "2018 - 2019",
       companyLink: "https://microsoft.com",
-      desc:["Handling political escalations for the team.",] 
+      desc:["Served as an escalation point for Tier 1/vendor team and FTE/Tier 2 team.",
+      "	Managed high visibility cases and reduced backlog for Tier 1 and FTE team, resulting in a 15% reduction in case resolution time.",
+      "	Analyzed customers' technical environments and anticipated potential challenges by communicating effectively with customer contacts to influence customer business outcomes, resulting in a 7% improvement in customer satisfaction ratings.",
+      "	Set success criteria and continually analyzed and optimized the plan to achieve the best results, maintaining stable Experience scores of 4.7/5 for vendor teams in the POD.", 
+      "	Communicated complex technical issues to and established credibility with a variety of audiences, resulting in a 20% improvement in issue resolution time.",
+      ] 
     },
     {
-      title: "Support Engineer",
+      title: "Support Engineer (Premier & Partner Support)",
       company: "Microsoft",
       year: "2016 - 2018",
       companyLink: "https://microsoft.com",
-      desc:["",] 
+      desc:["Served as primary contact for Paid support.",
+      "Work exclusively on paid support and Tier 1 escalation cases with Days to Solution of 15 days",
+      "Drove discussions on cloud governance and compliance as needed with Account Management Team, resulting in a 2% reduction in future escalations.",
+      "Collaborated with Partners and Strategic customers to drive discussions on cloud governance and compliance, resulting in a 10% increase in customer adoption of Microsoft cloud solutions.",
+      ] 
     },
     {
       title: "Technical Consultant",
@@ -99,8 +108,7 @@ const userData = {
       year: "2013- 2014",
       companyLink: "https://www.ikshealth.com",
       desc: ["Data Engineer for new client entity: Physiotherapy Associates, US that consisted of 700 clinics.",
-      "Built Minimum Viable Product (MVP) from inception through to productization for the clients spanning across 3 projects",
-      "Product Documentation for end users to have  100% adoption of the product",
+      "Built Minimum Viable Product (MVP) from inception through to productization for a new client entity consisting of 700 clinics, resulting in 100% adoption of the product.",
       "Built v1 product  for following:",
       "Store Keeper: Inventory data stored in SQL DB with access based on authentication",
       "Appointment Scheduler: App to schedule appointments to clinics for patients with API endpoints to allow future integrations.",
