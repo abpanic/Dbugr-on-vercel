@@ -49,7 +49,7 @@ const userData = {
     {
       title: "Partner Technical Advisor (Sonata Software)",
       company: "Microsoft",
-      year: "2017 - present",
+      year: "2019 - present",
       companyLink: "https://microsoft.com",
       desc:[ "Customer experience program management for SDK support in Digital Transformation Platform.",
       "Set-up a geographically dispersed team of 27 engineers, 3 Technical Leads for diverse customer base across 2 continents.",
@@ -70,9 +70,16 @@ const userData = {
     {
       title: "Support Escalation Engineer",
       company: "Microsoft",
-      year: "2016 - 2017",
+      year: "2018 - 2019",
       companyLink: "https://microsoft.com",
       desc:["Handling political escalations for the team.",] 
+    },
+    {
+      title: "Support Engineer",
+      company: "Microsoft",
+      year: "2016 - 2018",
+      companyLink: "https://microsoft.com",
+      desc:["",] 
     },
     {
       title: "Technical Consultant",
