@@ -47,27 +47,25 @@ const userData = {
   },
   experience: [
     {
-      title: "Partner Technical Advisor",
+      title: "Partner Technical Advisor (Sonata Software)",
       company: "Microsoft",
       year: "2017 - present",
       companyLink: "https://microsoft.com",
-      desc:[ "Built teams for troublshooting Software Development Kit(SDK) at Partner Sonata consisting of 35 Engineers along with product and process improvement with Agile.",
-      "Customer experience program management for SDK support in Digital Transformation Platform.",
+      desc:[ "Customer experience program management for SDK support in Digital Transformation Platform.",
       "Set-up a geographically dispersed team of 27 engineers, 3 Technical Leads for diverse customer base across 2 continents.",
       "Upskilling Engineers on Azure DevOps and GitHub for CI/CD operations, Custom code debugging.",
       "Data driven analysis in support topics for increased focus to reduce escalations from Tier 1 team by 11%.", 
       "Built high skill SME team (internal Tier 2) at Partner location working exclusively working on Strategic , Escalations and Premier(for fee) volumes enabling the team to take 60% of the volume.",
       "Agile Change Management for continuously evolving cloud landscape while still maintaining.",
       "Anticipating issues and assessing impacted segments by identifying and implementing long-term solutions by utilizing historic data and forecasting mechanism along with measuring impact across an issue lifecycle to optimize the mix of solutions and maximize customer satisfaction.",
-      "D365 SDK Tutorials (webdevtutorials101.netlify.app)", 
-      
+      "D365 SDK Tutorials (webdevtutorials101.netlify.app)",
+      "",
       "Proactive Support/Advisory Service:",
       "Advisory for Strategic Customers workload migration, solution lifecycle management for Digital Transformation Platform.",
       "Collaborating with ISVs (Independent Software Vendors), MSP (Managed Service Providers), and SIs (System Integrators) to deliver high-impact solutions on the Dynamics platform with assistance in best practice to list in Microsoft AppSource.",
       "Bug tracking portal for customers to track their bug status and get email alert when released resulting in 100% improvement in case closure on bug cases.",
       "Allocating and aligning resources to optimize the customer experience ensuring deliverables are met on time and on budget."    
-    
-    ]
+        ]
     },
     {
       title: "Support Escalation Engineer",
@@ -82,8 +80,11 @@ const userData = {
       year: "2014-2016",
       companyLink: "https://wipro.com",
       desc: ["Technical Lead for Microsoft Dynamics CRM (Cloud operations)",
-      "Defining and creating OKR (Objectives and key results) and KPIs for Tier 1 to support the apps created",
-    ]
+      "Defining and creating OKR (Objectives and key results) and KPIs (Key Performance Indicators) for Tier 1 to support  created",
+      "Agile based POD methodology to reduce Days to Solution of cases by 23%",
+      "Reduced the number of escalations to Tier 2 to 0.25% from 4% by actively identifying escalation triggers.",
+      "Model and coach, the team to customer focused team achieving Days to Solution of 1.4 days an improvement from historical 7 days.",
+      "Improvement in solution time by 37% leveraging Tier 2 to create focus SME for each topic."]
     },
     {
       title: "Technical Associate",
@@ -114,7 +115,7 @@ const userData = {
       year: "2008 - 2010",
       companyLink: "https://www.finafrontier.in/",
       desc: ["CRM and ERP solution to small and medium enterprises in India.",
-      "Bootstrapped business with 14000 INR",
+      "Bootstrapped business with 4000 INR",
       "Interacted with business in Mumbai, Jalna, Aurangabad MIDCs", 
       "The business was sold after nearly 2 years for 5 lakhs.",
       "(This was before the rise of high bandwidth cheap Internet and cheap smartphones. Selling software through CD/DVD did not work well due to piracy)",]
