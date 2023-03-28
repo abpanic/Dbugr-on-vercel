@@ -113,8 +113,11 @@ const userData = {
       company: "FinaFrontier",
       year: "2008 - 2010",
       companyLink: "https://www.finafrontier.in/",
-      desc: ["CRM and ERP solution to Small and Medium businesses in India. The business was sold after nearly 4 years for 6 lakhs.",
-       "This was before the rise of cheap Internet. Selling software through CD/DVD didnot work well due to privacy",]
+      desc: ["CRM and ERP solution to small and medium enterprises in India.",
+      "Bootstrapped business with 14000 INR",
+      "Interacted with business in Mumbai, Jalna, Aurangabad MIDCs", 
+      "The business was sold after nearly 2 years for 5 lakhs.",
+      "(This was before the rise of high bandwidth cheap Internet and cheap smartphones. Selling software through CD/DVD did not work well due to piracy)",]
     },
   ],
   education: [
