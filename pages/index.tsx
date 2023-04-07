@@ -9,7 +9,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Abhilash Panicker - Data Enthusiast, Developer, Debuger"
-      description="This is a repository of blogs, tutorials and collection of some of my work.">
+      description="This is a repository of tutorials and collection of some of my work.">
       <Hero />
       <FavouriteProjects />
       <LatestCode repositories={repositories} />
