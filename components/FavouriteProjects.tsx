@@ -41,7 +41,7 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden">
               <img
-                src="/TaskTracker.png"
+                src="/TaskTracker"
                 alt="Task Tracker"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
