@@ -1,5 +1,12 @@
 const projdets= {
 projects: [
+  
+    {
+    title: "Task Tracker",
+    link: "https://abpanic.github.io/Task-Tracker/",
+    imgUrl: "/TaskTracker",
+    skills:["Pomodoro", "Python","PyQt5", "SQLLite3" ]
+    },
     {
       title: "Web Dev 101 for SDK Engineer onboarding",
       link: "https://webdevtutorials101.netlify.app/",
@@ -12,14 +19,14 @@ projects: [
       imgUrl: "/placeholdertech.png",
     },
     {
-      title: "Portfolio",
-      link: "https://dbugr.netlify.app",
+      title: "Jekyll SPA Portfolio",
+      link: "https://abpanic.github.com",
       imgUrl: "/portfolio.png",
       skills: ["Jekyll", "Bootstrap"],
     },
     {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
+      title: "NextJS Portfolio",
+      link: "https://debugr.vercel.app/",
       imgUrl: "/covidrescue.png",
     },
     {
@@ -27,22 +34,8 @@ projects: [
       link: "https://learn-docsify.netlify.app/#/",
       imgUrl: "/algochurn.png",
       skills:["Docsify","JavaScript"],
-    },
-    {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
-    },
+    }
+
   ],
 }
 
