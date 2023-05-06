@@ -30,10 +30,10 @@ projects: [
       imgUrl: "/covidrescue.png",
     },
     {
-      title: "Learn Docsify",
-      link: "https://learn-docsify.netlify.app/#/",
+      title: "Data Unification",
+      link: "https://abpanic.github.io/Data-Unification/",
       imgUrl: "/algochurn.png",
-      skills:["Docsify","JavaScript"],
+      skills:["Data Migration","Data Engineering", "SQL", "Python"],
     }
 
   ],
