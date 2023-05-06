@@ -8,7 +8,7 @@ const userData = {
   address: "Thiruvananthpuram, India.",
   about: {
     title:
-      "Data Enthusiast | Program Manager | Software Developer | Debugging Coach",
+      "Data Enthusiast | Debugging Coach | Developer",
     description: [
       'With a master\'s degree in Data Science and over 15 years of experience in program management, data engineering, and software development, I am a skilled data science expert, program manager, and software developer.',
       'I have a passion for building innovative solutions and driving projects from inception to productization.',
