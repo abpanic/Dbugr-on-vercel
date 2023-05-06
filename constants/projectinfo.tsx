@@ -1,4 +1,4 @@
-const projdets= {
+const projData= {
 projects: [
   
     {
@@ -39,4 +39,4 @@ projects: [
   ],
 }
 
-export default projdets
+export default projData
