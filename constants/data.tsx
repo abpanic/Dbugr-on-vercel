@@ -6,34 +6,6 @@ const userData = {
   email: "<Hidden>",
   phone: "<Hidden>",
   address: "Thiruvananthpuram, India.",
-  projects: [
-    {
-      title: "Web Dev 101 for SDK Engineer onboarding",
-      link: "https://webdevtutorials101.netlify.app/",
-      imgUrl: "/webdev101.png",
-      skills: ["docsify", "IT Training", "Microsoft Instructor", "Information Technology Instructor", "JavaScript", "SDK"],
-    },
-    {
-      title: "Fina Frontier",
-      link: "https://finafrontier.in",
-      imgUrl: "/placeholdertech.png",
-    },
-    {
-      title: "Portfolio",
-      link: "https://dbugr.netlify.app",
-      imgUrl: "/portfolio.png",
-      skills: ["Jekyll", "Bootstrap"],
-    },
-
-    {
-      title: "Learn Docsify",
-      link: "https://learn-docsify.netlify.app/",
-      imgUrl: "/learndocsify.jpg",
-      skills:["Docsify","JavaScript"],
-    },
-
-
-  ],
   about: {
     title:
       "Data Enthusiast | Program Manager | Software Developer | Debugging Coach",
@@ -42,8 +14,8 @@ const userData = {
       'I have a passion for building innovative solutions and driving projects from inception to productization.',
       'I am also an experienced debugging coach and believe that effective debugging requires a combination of technical knowledge and communication skills.I have honed my debugging skills through years of practice and enjoy coaching others to improve their skills'
     ],
-    currentProject: "Web DEV 101",
-    currentProjectUrl: "https://webdevtutorials101.netlify.app/",
+    currentProject: "Task Tracker",
+    currentProjectUrl: "https://abpanic.github.io/Task-Tracker/",
   },
   experience: [
     {
@@ -156,7 +128,7 @@ const userData = {
       company: "Rajasthan Technical University",
       year: "2006",
       companyLink: "https://www.rtu.ac.in/index/",
-      desc: "Quit in 2008 to start my own business of CRM and ERP software across Mumbai, Sangli, Jalna, Ahmedabad.",
+      desc: "Quit in 2008 to start my business. Built CRM and ERP software and seeling to small and medium business across Mumbai, Sangli, Jalna, Ahmedabad.",
     },
 
   ],
