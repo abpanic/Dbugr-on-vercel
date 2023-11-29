@@ -115,27 +115,34 @@ const userData = {
     ]
   },
 ],
-education: [
+ededucation: [
   {
-    title: "M.S. - Data Science",
-    company: "University of Colorado Boulder",
-    year: "2021",
-    companyLink: "https://www.colorado.edu/",
-    desc: "Data Science is my speciality with additional learning in Statistics and Software Engineering.",
+    title: "Post Graduate Program in Artificial Intelligence and Machine Learning",
+    company: "University of Texas, Austin",
+    year: "April 2023 - PURSUING",
+    companyLink: "https://www.utexas.edu/",
+    desc: "Currently pursuing a postgraduate program focusing on AI and Machine Learning."
   },
   {
-    title: "Bachelor of Computer Application",
-    company: "Jaipur National University, Jaipur.",
-    year: "2019",
+    title: "Advanced Certification in Software Engineering for Cloud, Blockchain & IoT",
+    company: "IIT, Madras",
+    year: "July 2022 - November 2023",
+    companyLink: "https://www.iitm.ac.in/",
+    desc: "Specialization in software engineering with a focus on Cloud technologies, Blockchain, and IoT."
+  },
+  {
+    title: "Advanced Certification in Data Science and AI",
+    company: "IIT, Madras",
+    year: "July 2022 - January 2023",
+    companyLink: "https://www.iitm.ac.in/",
+    desc: "Advanced studies in Data Science and Artificial Intelligence."
+  },
+  {
+    title: "Bachelor of Computer Applications",
+    company: "Jaipur National University, Jaipur",
+    year: "April 2019 - April 2022",
     companyLink: "https://www.jnujaipur.ac.in/",
-    desc: "Thanks to better time management skills, I had enough time to complete this along with my full-time job",
-  },
-  {
-    title: "Bachelor of Technology - Electrical",
-    company: "Rajasthan Technical University",
-    year: "2006",
-    companyLink:"https://www.rtu.ac.in/index/",
-    desc: "Quit in 2008 to start a business. Addressing digital needs of small enterprises across Mumbai, Sangli, Jalna, Ahmedabad.",
+    desc: "Undergraduate program in Computer Applications."
   },
 ],
 
