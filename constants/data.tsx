@@ -1,14 +1,14 @@
 const userData = {
   githubUsername: "abpanic",
   name: "Abhilash P.",
-  designation: "Data Enthusiast and Developer",
+  designation: "Data & Finance Enthusiast",
   avatarUrl: "/abpanic.jpg",
   email: "<Hidden>",
   phone: "<Hidden>",
   address: "Thiruvananthpuram, India.",
   about: {
     title:
-      "Data Enthusiast | Debugging Coach | Developer",
+      "Data Enthusiast | Debugging Coach | Finance Enthusiast",
     description: [
       'With a master\'s degree in Data Science and over 15 years of experience in program management, data engineering, and software development, I am a skilled data science expert, program manager, and software developer.',
       'I have a passion for building innovative solutions and driving projects from inception to productization.',
