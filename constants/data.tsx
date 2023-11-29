@@ -18,104 +18,101 @@ const userData = {
     currentProjectUrl: "https://abpanic.github.io/Task-Tracker/",
   },
   experience: [
+
   {
-    title: "Partner Technical Advisor (Sonata Software)",
+    title: "Partner Technical Advisor",
     company: "Microsoft",
-    year: "2019 - present",
+    year: "Oct 2019 - PRESENT",
     companyLink: "https://microsoft.com",
     desc: [
-      "Serving in Program Management role for Customer Experience",
-      "Led a team of 27 engineers, 3 Technical Leads for diverse customer base across 2 continents with delivery Partner Sonata Software.",
-      "Upskilling Engineers Azure DevOps and GitHub for CI/CD operations, Custom code debugging to work on 100% of the volume in-house.",
-      "Developed and implemented data-driven analysis for support topics, resulting in increased focus and reduced escalations from Tier 1 team by 11%.",
-      "Built high skill SME team (internal Tier 2) at Partner location working exclusively working on Strategic, Escalations and Premier(for fee) volumes enabling the team to take 60% of the volume.",
-      "Successfully implemented Agile Change Management for continuously evolving cloud landscape while still maintaining SLAs.",
-      "Project Management for projects time to time for case hygiene, new feature roll-out, etc. for delivery on time and on budget.",
-      "Projects on upskilling for Partner and SDK Engineers: D365 SDK Tutorials (webdevtutorials101.netlify.app)",
-      "Proactive Support/Advisory Service:",
-      "Advisory for Strategic Customers workload migration, solution lifecycle management for Digital Transformation Platform.",
-      "Collaborated with ISVs (Independent Software Vendors), MSP (Managed Service Providers), and SIs (System Integrators) to deliver high-impact solutions on the Dynamics platform with assistance in best practice to list in Microsoft AppSource.",
-      "Bug tracking portal for customers to track their bug status and get email alert when released resulting in 100% improvement in case closure on bug cases.",
-    ]
+      "Collaborated closely with teams, driving process optimization initiatives that enhanced efficiency by 11% and ensured adherence to project timelines and budgets.",
+      "Spearheaded cross-functional projects, resulting in a 21% improvement in project execution.",
+      "Conducted strategic business analysis, boosting business outcomes by 19%.",
+      "Cultivated a positive team culture, mentoring 7 members and fostering innovation.",
+      "Played a pivotal role in global operations, achieving a 23% increase in customer satisfaction.",
+    ],
+    keySkills: ["Process Optimization", "Cross-functional Leadership", "Operational Excellence", "Strategic Business Analysis", "Global Operations Management", "Agile Change Management", "Stakeholder Collaboration"]
   },
   {
     title: "Support Escalation Engineer",
     company: "Microsoft",
-    year: "2018 - 2019",
+    year: "Oct 2018 – Oct 2019",
     companyLink: "https://microsoft.com",
     desc: [
-      "Served as an escalation point for Tier 1/vendor team and FTE/Tier 2 team.",
-      "Managed high visibility cases and reduced backlog for Tier 1 and FTE team, resulting in a 15% reduction in case resolution time.",
-      "Analyzed customers' technical environments and anticipated potential challenges by communicating effectively with customer contacts to influence customer business outcomes, resulting in a 7% improvement in customer satisfaction ratings.",
-      "Set success criteria and continually analyzed and optimized the plan to achieve the best results, maintaining stable Experience scores of 4.7/5 for vendor teams in the POD.",
-      "Communicated complex technical issues to and established credibility with a variety of audiences, resulting in a 20% improvement in issue resolution time.",
-    ]
+      "Managed high visibility cases, achieving a 15% reduction in case resolution time.",
+      "Dashboarding using PowerBI for the internal team.",
+      "Improved customer satisfaction by 7% through effective communication and anticipation of challenges.",
+      "Maintained stable Experience scores of 4.7/5 for vendor teams.",
+    ],
+    keySkills: ["Case Management", "PowerBI Visualization", "Technical Environment Analysis", "Customer Satisfaction Improvement", "Technical Communication"]
   },
   {
-    title: "Support Engineer (Premier & Partner Support)",
+    title: "Support Engineer",
     company: "Microsoft",
-    year: "2016 - 2018",
+    year: "Oct 2016 – Oct 2018",
     companyLink: "https://microsoft.com",
     desc: [
-      "Served as primary contact for Paid support.",
-      "Work exclusively on paid support and Tier 1 escalation cases with Days to Solution of 15 days",
-      "Drove discussions on cloud governance and compliance as needed with Account Management Team, resulting in a 2% reduction in future escalations.",
-      "Collaborated with Partners and Strategic customers to drive discussions on cloud governance and compliance, resulting in a 10% increase in customer adoption of Microsoft cloud solutions.",
-    ]
+      "Worked on paid support with a Days to Solution of 15 days.",
+      "Collaborated on cloud governance, resulting in a 10% increase in Microsoft cloud solution adoption.",
+      "Drove discussions with the Account Management Team, achieving a 2% reduction in future escalations.",
+    ],
+    keySkills: ["Cloud Governance", "Customer Support", "Cloud Solution Adoption", "Account Management Collaboration"]
   },
   {
     title: "Technical Consultant",
     company: "Wipro",
-    year: "2014-2016",
+    year: "May 2014 – Oct 2016",
     companyLink: "https://wipro.com",
     desc: [
-      "Technical Lead for Microsoft Dynamics CRM (Cloud operations)",
-      "Defining and creating OKR (Objectives and key results) and KPIs (Key Performance Indicators) for Tier 1 to support created",
-      "Agile based POD methodology to reduce Days to Solution of cases by 23%",
-      "Reduced the number of escalations to Tier 2 to 0.25% from 4% by actively identifying escalation triggers.",
-      "Model and coach, the team to customer focused team achieving Days to Solution of 1.4 days an improvement from historical 7 days.",
-      "Improvement in solution time by 37% leveraging Tier 2 to create focus SME for each topic."
-    ]
+      "Served as Technical Lead for Microsoft Dynamics CRM.",
+      "Developed SQL scripts, reducing Customer Pain time by 2%.",
+      "Reduced escalations to Tier 2 by identifying triggers.",
+      "Improved solution time by 37% by leveraging Tier 2 expertise.",
+    ],
+    keySkills: ["Technical Leadership", "SQL Script Development", "Escalation Management", "Solution Time Optimization"]
   },
   {
     title: "Technical Associate",
-    company: "IKS Health(formerly Inventurus Knowledge Solutions)",
-    year: "2013- 2014",
+    company: "IKS Health",
+    year: "Mar 2013 – Apr 2014",
     companyLink: "https://www.ikshealth.com",
     desc: [
-      "Data Engineer for new client entity: Physiotherapy Associates, US that consisted of 700 clinics.",
-      "Built Minimum Viable Product (MVP) from inception through to productization for a new client entity consisting of 700 clinics, resulting in 100% adoption of the product.",
-      "Built v1 product for following:",
-      "Store Keeper: Inventory data stored in SQL DB with access based on authentication",
-      "Appointment Scheduler: App to schedule appointments to clinics for patients with API endpoints to allow future integrations.",
-      "Database Unification: Migrated legacy data stored in MS SQL, MySQL and Excel sheet of almost 700 clinics to the new parent entity’s database."
-    ]
+      "Implemented big data analytics tools, optimizing data processing speeds by 20%.",
+      "Managed cloud deployments on Azure and AWS, achieving a 99.9% system uptime.",
+      "Developed reports using Power BI, increasing stakeholder engagement by 25%.",
+      "Introduced Python-based solutions, reducing code maintenance time by 30%.",
+    ],
+    keySkills: ["Big Data Analytics", "ETL", "Cloud Deployment Management", "PowerBI Reporting", "Python Solution Development", "Data Lakes Management"]
   },
   {
-    title: "Customer Care Representative",
+    title: "Customer Care Professional",
     company: "Sitel",
-    year: "2011 - 2013",
+    year: "Jul 2011 – Mar 2013",
     companyLink: "https://www.sitel.com",
     desc: [
-      "Support Engineer for Microsoft SQL paid support.",
-      "Develop scripts, perform database support activities, and conduct performance tuning as part of troubleshooting with 87% CSAT.",
-    ]
+      "Provided technical support for Microsoft products, resolving over 40 escalated problems monthly.",
+      "Offers advanced troubleshooting, achieving a 100% resolution rate for escalated issues.",
+      "Managed relationships with key corporate customers, achieving an 89% satisfaction rate.",
+      "Authored technical content, driving customer engagement and self-service solutions.",
+    ],
+    keySkills: ["Technical Support", "Advanced Troubleshooting", "Customer Relationship Management", "Technical Content Creation", "Product Knowledge Maintenance"]
   },
   {
     title: "Proprietor",
     company: "FinaFrontier",
-    year: "2008 - 2010",
+    year: "March 2008 - Dec 2010",
     companyLink: "https://www.finafrontier.in/",
     desc: [
-      "CRM and ERP solution to small and medium enterprises in India.",
-      "Bootstrapped business with 4000 INR",
-      "Interacted with business in Mumbai, Jalna, Aurangabad MIDCs",
-      "The business was sold after nearly 2 years for 5 lakhs.",
-      "(This was before the rise of high bandwidth cheap Internet and cheap smartphones. Selling software through CD/DVD did not work well due to piracy)",
-    ]
+      "Founded FinaFrontier, leading to a 860% increase in revenue over 2 years.",
+      "Oversaw the development and launch of CRM & ERP, achieving a 93% customer satisfaction rate.",
+      "Built and led a cross-functional team of 5 professionals.",
+      "Established strategic partnerships with Small and Medium Enterprises.",
+    ],
+    keySkills: ["Entrepreneurial Leadership", "Product Development", "Team Management", "Strategic Partnerships", "Operational Excellence"]
   },
 ],
-ededucation: [
+
+education: [
   {
     title: "Post Graduate Program in Artificial Intelligence and Machine Learning",
     company: "University of Texas, Austin",
