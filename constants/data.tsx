@@ -160,7 +160,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://docs.google.com/document/d/1jiecDkg8jQn6a0m83jzvvxsEFW1Jl6mx/edit?usp=sharing&ouid=114010472443327264555&rtpof=true&sd=true",
+    "https://docs.google.com/document/d/1uw2BC4k7zGO3ATwyTN3WrThIb1U_Am5qWqcduMRf8wA/edit?usp=sharing",
   socialLinks: {
     /*instagram: "https://instagram.com/",*/
     linkedin: "https://linkedin.com/in/abhilash-panicker-68952b159",
