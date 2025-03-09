@@ -7,7 +7,6 @@ badgeinfo.tsx-> Provide information on any certifications and Badges like credly
 
 # Tech Stack
 
-
 - [![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/) for building React Components.
 - [![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com) for styling.
 - [React Rough Notation](https://roughnotation.com) for Hero section highlighting.
@@ -19,35 +18,36 @@ badgeinfo.tsx-> Provide information on any certifications and Badges like credly
 
 - Clone the repository using `git clone`
 - Install all the modules by using `npm i`
-- Run the local development server by using `npm run dev` 
+- Run the local development server by using `npm run dev`
 - Make the required edits and deploy to YOUR GitHub repo for CI/CD.
 
-# TO DO:
+# TO DO
 
 Projects:
-- update the Projjects properly with screenshots
+
+- update the Projects properly with screenshots
 - Link the skill section to Projects. Anyone clicking on specific link will be taken to project using the skill.
 - Update Project page to have rounded section and emboss of skill used.
 - Ability of filtering projects for the associated skills.
 - Add template for DB migration
 
 Blogs
+
 - complete blogs page set-up
 - Write more content
-- authentication v/s Authorization 
+- authentication v/s Authorization
 - add link to authored dev.to blogs
 
-
 Certificates:
+
 - Add Coursera certificates link
 - Upload IIT Roorkee certificate
 
 Add Courses page:
+
 - Publish all Learning content for free Online
 - Docsify
 - Javascript mastery
 - TestDriven Design
 - Using Fiddler
 - Using Postman
-
-

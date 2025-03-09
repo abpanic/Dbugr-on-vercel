@@ -1,125 +1,103 @@
 const userData = {
   githubUsername: "abpanic",
   name: "Abhilash P.",
-  designation: "Data & Finance Enthusiast",
+  designation: "AI & Cloud Technical Leader | Data & Finance Strategist",
   avatarUrl: "/abpanic.jpg",
   email: "<Hidden>",
   phone: "<Hidden>",
-  address: "Thiruvananthpuram, India.",
+  address: "Thiruvananthapuram, India.",
   about: {
-    title:
-      "Data Enthusiast | Debugging Coach | Finance Enthusiast",
+    title: "Enterprise AI Leader | Debugging Expert | Cloud & Data Strategist",
     description: [
-      'With a master\'s degree in Data Science and over 15 years of experience in program management, data engineering, and software development, I am a skilled data science expert, program manager, and software developer.',
-      'I have a passion for building innovative solutions and driving projects from inception to productization.',
-      'I am also an experienced debugging coach and believe that effective debugging requires a combination of technical knowledge and communication skills.I have honed my debugging skills through years of practice and enjoy coaching others to improve their skills'
+      "With a Master’s degree in Data Science and over 15 years of experience in AI, cloud transformation, and enterprise technical leadership, I specialize in driving data-driven strategies and solving complex business challenges.",
+      "I have led large-scale AI and cloud migration initiatives, optimized customer experience through AI-driven sentiment analysis, and built high-impact global teams.",
+      "I am also an experienced debugging coach, having refined my troubleshooting methodologies over the years and mentoring engineers in AI-driven diagnostics and enterprise-scale issue resolution."
     ],
     currentProject: "Task Tracker",
     currentProjectUrl: "https://abpanic.github.io/Task-Tracker/",
   },
   experience: [
+    {
+      title: "Sr. Support Escalation Engineer",
+      company: "Microsoft",
+      year: "Mar 2025 – Present",
+      companyLink: "https://microsoft.com",
+      desc: [
+        "Led cross-functional war rooms to resolve AI model inefficiencies and cloud-scale challenges, reducing MTTR by 35%.",
+        "Developed an AI-driven sentiment analysis model to proactively detect escalations, reducing high-severity cases by 20%.",
+        "Established a cloud-based anomaly detection system, improving issue identification speed by 40%.",
+        "Launched AI Readiness Workshops to drive AI adoption, leading to a 25% increase in AI-enabled business solutions."
+      ],
+      keySkills: ["AI Troubleshooting", "Cloud Automation", "Enterprise AI Strategy", "Anomaly Detection", "Azure AI & Synapse"]
+    },
+    {
+      title: "Sr. Technical Advisor",
+      company: "Microsoft",
+      year: "Oct 2023 – Mar 2025",
+      companyLink: "https://microsoft.com",
+      desc: [
+        "Optimized global support schedules to maintain 24/7 SLA compliance across time zones, reducing SLA breaches by 20%.",
+        "Implemented AI-powered sentiment tracking, shifting from CSAT-based to proactive issue resolution, increasing customer satisfaction by 15%.",
+        "Developed a Digital Transformation Blueprint, accelerating cloud migrations by 30% and optimizing cost savings.",
+        "Launched an AI-driven backlog reduction initiative, cutting open case volumes by 30% and improving case resolution speed."
+      ],
+      keySkills: ["Cloud Migration", "AI for Support", "Sentiment Analytics", "SLA Management", "Incident Resolution"]
+    },
+    {
+      title: "Partner Technical Advisor",
+      company: "Microsoft",
+      year: "Nov 2016 – Oct 2023",
+      companyLink: "https://microsoft.com",
+      desc: [
+        "Built and led a geographically dispersed team of 17 engineers and 3 Technical Leads across 2 continents.",
+        "Upskilled engineers in Azure DevOps and GitHub, improving CI/CD efficiency and custom debugging capabilities.",
+        "Developed a bug-tracking portal, enabling real-time customer updates and improving case resolution by 100%.",
+        "Collaborated with ISVs and SIs to optimize Dynamics CRM solutions and accelerate adoption of AI-powered customer workflows."
+      ],
+      keySkills: ["Azure DevOps", "AI-Driven Debugging", "Customer Success", "Bug Tracking Automation", "Enterprise Support Strategy"]
+    },
+    {
+      title: "Technical Consultant",
+      company: "Wipro",
+      year: "May 2014 – Oct 2016",
+      companyLink: "https://wipro.com",
+      desc: [
+        "Served as Technical Lead for Microsoft Dynamics CRM cloud operations, focusing on system stability and optimization.",
+        "Developed SQL scripts for automated issue mitigation, reducing downtime by 2%.",
+        "Reduced escalations to Tier 2 from 4% to 0.25% by proactively identifying issue patterns.",
+        "Implemented a troubleshooting framework, decreasing resolution time from 7 days to 1.4 days."
+      ],
+      keySkills: ["SQL Automation", "Cloud Performance Optimization", "Issue Prediction", "Troubleshooting Frameworks"]
+    }
+  ],
 
-  {
-    title: "Partner Technical Advisor",
-    company: "Microsoft",
-    year: "Oct 2019 - PRESENT",
-    companyLink: "https://microsoft.com",
-    desc: [
-      "Collaborated closely with teams, driving process optimization initiatives that enhanced efficiency by 11% and ensured adherence to project timelines and budgets.",
-      "Spearheaded cross-functional projects, resulting in a 21% improvement in project execution.",
-      "Conducted strategic business analysis, boosting business outcomes by 19%.",
-      "Cultivated a positive team culture, mentoring 7 members and fostering innovation.",
-      "Played a pivotal role in global operations, achieving a 23% increase in customer satisfaction.",
-    ],
-    keySkills: ["Process Optimization", "Cross-functional Leadership", "Operational Excellence", "Strategic Business Analysis", "Global Operations Management", "Agile Change Management", "Stakeholder Collaboration"]
-  },
-  {
-    title: "Support Escalation Engineer",
-    company: "Microsoft",
-    year: "Oct 2018 – Oct 2019",
-    companyLink: "https://microsoft.com",
-    desc: [
-      "Managed high visibility cases, achieving a 15% reduction in case resolution time.",
-      "Dashboarding using PowerBI for the internal team.",
-      "Improved customer satisfaction by 7% through effective communication and anticipation of challenges.",
-      "Maintained stable Experience scores of 4.7/5 for vendor teams.",
-    ],
-    keySkills: ["Case Management", "PowerBI Visualization", "Technical Environment Analysis", "Customer Satisfaction Improvement", "Technical Communication"]
-  },
-  {
-    title: "Support Engineer",
-    company: "Microsoft",
-    year: "Oct 2016 – Oct 2018",
-    companyLink: "https://microsoft.com",
-    desc: [
-      "Worked on paid support with a Days to Solution of 15 days.",
-      "Collaborated on cloud governance, resulting in a 10% increase in Microsoft cloud solution adoption.",
-      "Drove discussions with the Account Management Team, achieving a 2% reduction in future escalations.",
-    ],
-    keySkills: ["Cloud Governance", "Customer Support", "Cloud Solution Adoption", "Account Management Collaboration"]
-  },
-  {
-    title: "Technical Consultant",
-    company: "Wipro",
-    year: "May 2014 – Oct 2016",
-    companyLink: "https://wipro.com",
-    desc: [
-      "Served as Technical Lead for Microsoft Dynamics CRM.",
-      "Developed SQL scripts, reducing Customer Pain time by 2%.",
-      "Reduced escalations to Tier 2 by identifying triggers.",
-      "Improved solution time by 37% by leveraging Tier 2 expertise.",
-    ],
-    keySkills: ["Technical Leadership", "SQL Script Development", "Escalation Management", "Solution Time Optimization"]
-  },
-  {
-    title: "Technical Associate",
-    company: "IKS Health",
-    year: "Mar 2013 – Apr 2014",
-    companyLink: "https://www.ikshealth.com",
-    desc: [
-      "Implemented big data analytics tools, optimizing data processing speeds by 20%.",
-      "Managed cloud deployments on Azure and AWS, achieving a 99.9% system uptime.",
-      "Developed reports using Power BI, increasing stakeholder engagement by 25%.",
-      "Introduced Python-based solutions, reducing code maintenance time by 30%.",
-    ],
-    keySkills: ["Big Data Analytics", "ETL", "Cloud Deployment Management", "PowerBI Reporting", "Python Solution Development", "Data Lakes Management"]
-  },
-  {
-    title: "Customer Care Professional",
-    company: "Sitel",
-    year: "Jul 2011 – Mar 2013",
-    companyLink: "https://www.sitel.com",
-    desc: [
-      "Provided technical support for Microsoft products, resolving over 40 escalated problems monthly.",
-      "Offers advanced troubleshooting, achieving a 100% resolution rate for escalated issues.",
-      "Managed relationships with key corporate customers, achieving an 89% satisfaction rate.",
-      "Authored technical content, driving customer engagement and self-service solutions.",
-    ],
-    keySkills: ["Technical Support", "Advanced Troubleshooting", "Customer Relationship Management", "Technical Content Creation", "Product Knowledge Maintenance"]
-  },
-  {
-    title: "Proprietor",
-    company: "FinaFrontier",
-    year: "March 2008 - Dec 2010",
-    companyLink: "https://www.finafrontier.in/",
-    desc: [
-      "Founded FinaFrontier, leading to a 860% increase in revenue over 2 years.",
-      "Oversaw the development and launch of CRM & ERP, achieving a 93% customer satisfaction rate.",
-      "Built and led a cross-functional team of 5 professionals.",
-      "Established strategic partnerships with Small and Medium Enterprises.",
-    ],
-    keySkills: ["Entrepreneurial Leadership", "Product Development", "Team Management", "Strategic Partnerships", "Operational Excellence"]
-  },
-],
+
+    
+  
 
 education: [
   {
-    title: "Post Graduate Program in Artificial Intelligence and Machine Learning",
-    company: "University of Texas, Austin",
-    year: "April 2023 - PURSUING",
-    companyLink: "https://www.utexas.edu/",
-    desc: "Currently pursuing a postgraduate program focusing on AI and Machine Learning."
+    title: "Master of Science in Data Science",
+    company: "Deakin University",
+    year: "April 2023 – April 2025",
+    companyLink: "https://www.deakin.edu.au/",
+    desc: "Advanced coursework in AI, data science, and enterprise analytics, specializing in large-scale data processing and AI-driven decision-making."
   },
+  {
+    title: "MBA in Finance",
+    company: "Indian Institute of Technology, Patna",
+    year: "June 2024 – June 2026",
+    companyLink: "https://www.iitp.ac.in/",
+    desc: "Focused on financial analytics, business intelligence, and economic modeling."
+  },
+  {
+    title: "Postgraduate Program in Artificial Intelligence & Machine Learning",
+    company: "University of Texas (McCombs School of Business)",
+    year: "April 2023 – April 2024",
+    companyLink: "https://www.utexas.edu/",
+    desc: "Intensive coursework in machine learning, AI model deployment, and AI-driven business transformation."
+  },
+
   {
     title: "Advanced Certification in Software Engineering for Cloud, Blockchain & IoT",
     company: "IIT, Madras",
