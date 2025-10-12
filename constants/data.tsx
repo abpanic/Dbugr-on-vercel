@@ -7,7 +7,7 @@ const userData = {
   phone: "<Hidden>",
   address: "Thiruvananthapuram, India.",
   about: {
-    title: "Enterprise AI Leader | Debugging Expert | Cloud & Data Strategist",
+    title: "Enterprise AI Leader |  Cloud & Data Strategist",
     description: [
       "With a Master’s degree in Data Science and over 15 years of experience in AI, cloud transformation, and enterprise technical leadership, I specialize in driving data-driven strategies and solving complex business challenges.",
       "I have led large-scale AI and cloud migration initiatives, optimized customer experience through AI-driven sentiment analysis, and built high-impact global teams.",
